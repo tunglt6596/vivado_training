@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "c:/users/tunglt/desktop/ip_repo/bypass_axis_1.0/hdl/bypass_axis_v1_0_S_AXI.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bypass_axis_v1_0_S_AXI
+INFO: [VRFC 10-2263] Analyzing Verilog file "c:/users/tunglt/desktop/ip_repo/bypass_axis_1.0/hdl/bypass_axis_v1_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bypass_axis_v1_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "c:/users/tunglt/desktop/hello_axi2/hello_axi2.tmp/bypass_axis_v1_0_v1_0_project/bypass_axis_v1_0_v1_0_project.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

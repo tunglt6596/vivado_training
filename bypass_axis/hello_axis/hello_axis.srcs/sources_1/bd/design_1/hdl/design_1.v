@@ -1,7 +1,7 @@
 //Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
 //--------------------------------------------------------------------------------
 //Tool Version: Vivado v.2015.2 (win64) Build 1266856 Fri Jun 26 16:35:25 MDT 2015
-//Date        : Sat Jul 21 10:04:55 2018
+//Date        : Sat Jul 21 10:46:53 2018
 //Host        : Tung running 64-bit major release  (build 9200)
 //Command     : generate_target design_1.bd
 //Design      : design_1

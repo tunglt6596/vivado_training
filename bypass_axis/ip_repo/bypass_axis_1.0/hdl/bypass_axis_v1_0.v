@@ -126,22 +126,12 @@
 	);*/
 
 	// Add user logic here
-    wire AXI_En;
-    assign s_axis_tready = Start & m_axis_tready;   //Ready to receive data when Register 0 of AXI-Lite equals 1 and Output is ready to receive data
-    assign AXI_En = s_axis_tready & s_axis_tvalid;  //Enable bypass data when have data from input and output is ready to receive
-            
-    reg m_axis_tvalid_next;
-    reg [31:0] m_axis_tdata_next;
-    always @( posedge s_axis_aclk )
-    begin
-        m_axis_tvalid_next <= 1'b0;
-        m_axis_tdata_next <= s_axis_tdata;
-        if(AXI_En) begin
-            m_axis_tvalid_next <= 1'b1;
-        end
-    end
-    assign m_axis_tdata = m_axis_tdata_next;
-    assign m_axis_tvalid = m_axis_tvalid_next;
+	wire AXI_En;
+    assign s_axis_tready = m_axis_tready;   //Ready to receive data when Register 0 of AXI-Lite equals 1 and Output is ready to receive data
+    assign AXI_En = Start & s_axis_tvalid; //Enable bypass data when have data from input and output is ready to receive
+    
+    assign m_axis_tdata = ( AXI_En ) ? s_axis_tdata : 32'd0;
+    assign m_axis_tvalid = ( AXI_En ) ? 1'b1 : 1'b0;
 	// User logic ends
 
 	endmodule

@@ -1,0 +1,7 @@
+Running: xsim.dir/bypass_axis_v1_0_behav/xsimk.exe -simmode gui -wdb bypass_axis_v1_0_behav.wdb -simrunnum 0 -socket 2693
+Design successfully loaded
+Design Loading Memory Usage: 18832 KB (Peak: 18832 KB)
+Design Loading CPU Usage: 140 ms
+Simulation completed
+Simulation Memory Usage: 18832 KB (Peak: 18832 KB)
+Simulation CPU Usage: 140 ms

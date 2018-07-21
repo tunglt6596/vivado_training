@@ -3,7 +3,7 @@
 // Company: 
 // Engineer: 
 // 
-// Create Date: 07/21/2018 09:46:57 AM
+// Create Date: 07/21/2018 06:29:27 AM
 // Design Name: 
 // Module Name: design_1_wrapper_tb
 // Project Name: 
@@ -63,7 +63,7 @@ module design_1_wrapper_tb();
         .m_axis_tready(m_axis_tready),
         .m_axis_tvalid(m_axis_tvalid)
     );
-
+    
     always 
     begin
         clk = 1'b1;
@@ -71,7 +71,7 @@ module design_1_wrapper_tb();
         clk = 1'b0;
         #(T/2);
     end
-       
+    
     integer file_out;
     reg [31:0] data_reg[NUM_PIXEL-1:0];
         
@@ -98,14 +98,10 @@ module design_1_wrapper_tb();
         s_axi_wstrb = 4'b1111;
         @(posedge clk);      
                
-        //Set ready signal for AXI output
+        //Set ready signal for AXIS Output
         m_axis_tready = 1'b1;
         @(posedge clk);
-            
-        //Set valid signal for AXI input
-        s_axis_tvalid = 1'b1;
-        @(posedge clk);
-                    
+                        
         repeat(5) @(posedge clk);
         m_axis_tready = 1'b0;
         #200;
@@ -113,26 +109,26 @@ module design_1_wrapper_tb();
         m_axis_tready = 1'b1;
         @(posedge clk);
             
-        repeat(5) @(posedge clk);
-        s_axis_tvalid = 1'b0;
-        #200;
-            
-        s_axis_tvalid = 1'b1;
-        @(posedge clk);
     end
         
     //Read data when ready signal of the axi input is set
     integer i;
-    assign en_input = s_axis_tready & s_axis_tvalid;
+    wire en_input;
+    assign en_input = s_axis_tready;
+    wire en_output;
+    assign en_output = m_axis_tvalid;
+    
     initial
     begin
         i = 0;
             while(i < NUM_PIXEL) begin
                 @(posedge clk);
                 if(en_input == 1'b1) begin
-                    s_axis_tdata = data_reg[i];  
+                    s_axis_tdata = data_reg[i]; 
+                    s_axis_tvalid = 1;
                     i = i + 1;
                 end
+                else s_axis_tvalid = 0;
             end
         end
         
@@ -142,7 +138,7 @@ module design_1_wrapper_tb();
     begin
         while(count < NUM_PIXEL) begin
             @(posedge clk);
-            if(m_axis_tvalid) begin
+            if(en_output) begin
                 $fdisplay(file_out, "%b", m_axis_tdata); 
                 count = count + 1;
             end
