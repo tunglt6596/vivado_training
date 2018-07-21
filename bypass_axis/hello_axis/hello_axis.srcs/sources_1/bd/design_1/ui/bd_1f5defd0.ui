@@ -1,0 +1,34 @@
+{
+   commentid: "",
+   guistr: "# # String gsaved with Nlview 6.4.12  2014-12-16 bk=1.3272 VDI=35 GEI=35 GUI=JA:1.6
+#  -string -flagsOSRD
+preplace port s_axi_awvalid -pg 1 -y 100 -defaultsOSRD
+preplace port s_axis_tready -pg 1 -y 720 -defaultsOSRD
+preplace port m_axis_tvalid -pg 1 -y 380 -defaultsOSRD
+preplace port s_axi_wvalid -pg 1 -y 180 -defaultsOSRD
+preplace port reset_n -pg 1 -y 580 -defaultsOSRD
+preplace port s_axis_tvalid -pg 1 -y 520 -defaultsOSRD
+preplace port clk -pg 1 -y 560 -defaultsOSRD
+preplace port m_axis_tready -pg 1 -y 710 -defaultsOSRD
+preplace portBus s_axi_wstrb -pg 1 -y 160 -defaultsOSRD
+preplace portBus s_axis_tdata -pg 1 -y 460 -defaultsOSRD
+preplace portBus m_axis_tdata -pg 1 -y 320 -defaultsOSRD
+preplace portBus s_axi_awaddr -pg 1 -y 60 -defaultsOSRD
+preplace portBus s_axi_wdata -pg 1 -y 140 -defaultsOSRD
+preplace inst bypass_axis_0 -pg 1 -lvl 1 -y 350 -defaultsOSRD
+preplace netloc s_axi_wvalid_1 1 0 1 N
+preplace netloc s_axis_tdata_1 1 0 1 N
+preplace netloc s_axi_wstrb_1 1 0 1 N
+preplace netloc bypass_axis_0_s_axis_tready 1 0 2 190 720 NJ
+preplace netloc s_axi_awaddr_1 1 0 1 N
+preplace netloc bypass_axis_0_m_axis_tvalid 1 1 1 N
+preplace netloc clk_1 1 0 1 180
+preplace netloc s_axi_wdata_1 1 0 1 N
+preplace netloc s_axi_awvalid_1 1 0 1 N
+preplace netloc bypass_axis_0_m_axis_tdata 1 1 1 N
+preplace netloc m_axis_tready_1 1 0 2 NJ 710 510
+preplace netloc s_axis_tvalid_1 1 0 1 N
+preplace netloc reset_n_1 1 0 1 170
+levelinfo -pg 1 150 350 530
+",
+}
