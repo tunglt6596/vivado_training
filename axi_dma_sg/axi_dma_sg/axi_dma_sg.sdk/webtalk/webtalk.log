@@ -1,0 +1,68 @@
+#-----------------------------------------------------------
+# Webtalk v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# 
+# Start of session at: Mon Jul 23 11:02:33 2018
+# Process ID: 2840
+# Log file: C:/Users/Tung/Desktop/axi_dma_sg/axi_dma_sg.sdk/webtalk/webtalk.log
+# Journal file: C:/Users/Tung/Desktop/axi_dma_sg/axi_dma_sg.sdk/webtalk\webtalk.jou
+#-----------------------------------------------------------
+source sdk_webtalk.tcl
+# webtalk_init -webtalk_dir C:\\Users\\Tung\\Desktop\\axi_dma_sg\\axi_dma_sg.sdk\\webtalk
+# webtalk_register_client -client project
+# webtalk_add_data -client project -key date_generated -value "Mon Jul 23 11:02:31 2018" -context "software_version_and_target_device"
+# webtalk_add_data -client project -key product_version -value "SDK v2015.2" -context "software_version_and_target_device"
+# webtalk_add_data -client project -key build_version -value "2015.2" -context "software_version_and_target_device"
+# webtalk_add_data -client project -key os_platform -value "amd64" -context "software_version_and_target_device"
+# webtalk_add_data -client project -key registration_id -value "" -context "software_version_and_target_device"
+# webtalk_add_data -client project -key tool_flow -value "SDK" -context "software_version_and_target_device"
+# webtalk_add_data -client project -key beta -value "false" -context "software_version_and_target_device"
+# webtalk_add_data -client project -key route_design -value "NA" -context "software_version_and_target_device"
+# webtalk_add_data -client project -key target_family -value "NA" -context "software_version_and_target_device"
+# webtalk_add_data -client project -key target_device -value "NA" -context "software_version_and_target_device"
+# webtalk_add_data -client project -key target_package -value "NA" -context "software_version_and_target_device"
+# webtalk_add_data -client project -key target_speed -value "NA" -context "software_version_and_target_device"
+# webtalk_add_data -client project -key random_id -value "d4fs0ufgi70lct6cajidetnu92" -context "software_version_and_target_device"
+# webtalk_add_data -client project -key project_id -value "2015.2_2" -context "software_version_and_target_device"
+# webtalk_add_data -client project -key project_iteration -value "2" -context "software_version_and_target_device"
+# webtalk_add_data -client project -key os_name -value "" -context "user_environment"
+# webtalk_add_data -client project -key os_release -value "" -context "user_environment"
+# webtalk_add_data -client project -key cpu_name -value "" -context "user_environment"
+# webtalk_add_data -client project -key cpu_speed -value "" -context "user_environment"
+# webtalk_add_data -client project -key total_processors -value "" -context "user_environment"
+# webtalk_add_data -client project -key system_ram -value "" -context "user_environment"
+# webtalk_register_client -client sdk
+# webtalk_add_data -client sdk -key uid -value "1532313597681" -context "sdk\\\\hardware/1532313597681"
+# webtalk_add_data -client sdk -key isZynq -value "true" -context "sdk\\\\hardware/1532313597681"
+# webtalk_add_data -client sdk -key Processors -value "2" -context "sdk\\\\hardware/1532313597681"
+# webtalk_add_data -client sdk -key VivadoVersion -value "2015.2" -context "sdk\\\\hardware/1532313597681"
+# webtalk_add_data -client sdk -key Arch -value "zynq" -context "sdk\\\\hardware/1532313597681"
+# webtalk_add_data -client sdk -key Device -value "7z020" -context "sdk\\\\hardware/1532313597681"
+# webtalk_add_data -client sdk -key IsHandoff -value "true" -context "sdk\\\\hardware/1532313597681"
+# webtalk_add_data -client sdk -key uid -value "1532313612241" -context "sdk\\\\bsp/1532313612241"
+# webtalk_add_data -client sdk -key hwid -value "1532313597681" -context "sdk\\\\bsp/1532313612241"
+# webtalk_add_data -client sdk -key os -value "standalone" -context "sdk\\\\bsp/1532313612241"
+# webtalk_add_data -client sdk -key apptemplate -value "zynq_fsbl" -context "sdk\\\\bsp/1532313612241"
+# webtalk_add_data -client sdk -key uid -value "1532313625183" -context "sdk\\\\application/1532313625183"
+# webtalk_add_data -client sdk -key hwid -value "1532313597681" -context "sdk\\\\application/1532313625183"
+# webtalk_add_data -client sdk -key bspid -value "1532313612241" -context "sdk\\\\application/1532313625183"
+# webtalk_add_data -client sdk -key newbsp -value "true" -context "sdk\\\\application/1532313625183"
+# webtalk_add_data -client sdk -key os -value "standalone" -context "sdk\\\\application/1532313625183"
+# webtalk_add_data -client sdk -key apptemplate -value "zynq_fsbl" -context "sdk\\\\application/1532313625183"
+# webtalk_add_data -client sdk -key uid -value "1532313661593" -context "sdk\\\\bsp/1532313661593"
+# webtalk_add_data -client sdk -key hwid -value "1532313597681" -context "sdk\\\\bsp/1532313661593"
+# webtalk_add_data -client sdk -key os -value "standalone" -context "sdk\\\\bsp/1532313661593"
+# webtalk_add_data -client sdk -key apptemplate -value "hello_world" -context "sdk\\\\bsp/1532313661593"
+# webtalk_add_data -client sdk -key uid -value "1532313662306" -context "sdk\\\\application/1532313662306"
+# webtalk_add_data -client sdk -key hwid -value "1532313597681" -context "sdk\\\\application/1532313662306"
+# webtalk_add_data -client sdk -key bspid -value "1532313661593" -context "sdk\\\\application/1532313662306"
+# webtalk_add_data -client sdk -key newbsp -value "true" -context "sdk\\\\application/1532313662306"
+# webtalk_add_data -client sdk -key os -value "standalone" -context "sdk\\\\application/1532313662306"
+# webtalk_add_data -client sdk -key apptemplate -value "hello_world" -context "sdk\\\\application/1532313662306"
+# webtalk_transmit -clientid 710036257 -regid "" -xml C:\\Users\\Tung\\Desktop\\axi_dma_sg\\axi_dma_sg.sdk\\webtalk\\usage_statistics_ext_sdk.xml -html C:\\Users\\Tung\\Desktop\\axi_dma_sg\\axi_dma_sg.sdk\\webtalk\\usage_statistics_ext_sdk.html -wdm C:\\Users\\Tung\\Desktop\\axi_dma_sg\\axi_dma_sg.sdk\\webtalk\\sdk_webtalk.wdm -intro "<H3>SDK Usage Report</H3><BR>"
+webtalk_transmit: Time (s): cpu = 00:00:00 ; elapsed = 00:00:08 . Memory (MB): peak = 88.066 ; gain = 0.027
+
+    while executing
+"webtalk_transmit -clientid 710036257 -regid "" -xml C:\\Users\\Tung\\Desktop\\axi_dma_sg\\axi_dma_sg.sdk\\webtalk\\usage_statistics_ext_sdk.xml -html ..."
+    (file "sdk_webtalk.tcl" line 52)
+INFO: [Common 17-206] Exiting Webtalk at Mon Jul 23 11:02:44 2018...

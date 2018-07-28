@@ -1,0 +1,16 @@
+#-----------------------------------------------------------
+# Webtalk v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Fri Jul 27 08:51:12 2018
+# Process ID: 2516
+# Log file: C:/Users/Tung/Desktop/AXIS_Convolution_v1/axi_conv_fp_3x3/webtalk.log
+# Journal file: C:/Users/Tung/Desktop/AXIS_Convolution_v1/axi_conv_fp_3x3\webtalk.jou
+#-----------------------------------------------------------
+source c:/users/tung/desktop/axis_convolution_v1/axi_conv_fp_3x3/axi_conv_fp_3x3.tmp/axi_conv_fp_3x3_v1_0_v1_0_project/axi_conv_fp_3x3_v1_0_v1_0_project.hw/webtalk/labtool_webtalk.tcl -notrace
+webtalk_transmit: Time (s): cpu = 00:00:00 ; elapsed = 00:01:51 . Memory (MB): peak = 88.395 ; gain = 0.051
+
+    while executing
+"webtalk_transmit -clientid 1751562448 -regid "211455396_0_0_626" -xml c:/users/tung/desktop/axis_convolution_v1/axi_conv_fp_3x3/axi_conv_fp_3x3.tmp/ax..."
+    (file "c:/users/tung/desktop/axis_convolution_v1/axi_conv_fp_3x3/axi_conv_fp_3x3.tmp/axi_conv_fp_3x3_v1_0_v1_0_project/axi_conv_fp_3x3_v1_0_v1_0_project.hw/w..." line 26)
+INFO: [Common 17-206] Exiting Webtalk at Fri Jul 27 08:53:03 2018...

@@ -1,0 +1,16 @@
+#-----------------------------------------------------------
+# Webtalk v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Mon Jul 23 10:22:02 2018
+# Process ID: 4044
+# Log file: c:/Users/Tung/Desktop/axi_dma_sg/webtalk.log
+# Journal file: c:/Users/Tung/Desktop/axi_dma_sg\webtalk.jou
+#-----------------------------------------------------------
+source c:/users/tung/desktop/axi_dma_sg/axi_dma_sg.tmp/sample_generator_v1_0_v1_0_project/sample_generator_v1_0_v1_0_project.hw/webtalk/labtool_webtalk.tcl -notrace
+webtalk_transmit: Time (s): cpu = 00:00:00 ; elapsed = 00:00:08 . Memory (MB): peak = 88.098 ; gain = 0.039
+
+    while executing
+"webtalk_transmit -clientid 37672611 -regid "211455396_0_0_626" -xml c:/users/tung/desktop/axi_dma_sg/axi_dma_sg.tmp/sample_generator_v1_0_v1_0_project..."
+    (file "c:/users/tung/desktop/axi_dma_sg/axi_dma_sg.tmp/sample_generator_v1_0_v1_0_project/sample_generator_v1_0_v1_0_project.hw/webtalk/labtool_webtalk.tcl" line 26)
+INFO: [Common 17-206] Exiting Webtalk at Mon Jul 23 10:22:11 2018...

@@ -1,0 +1,18 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "c:/users/tung/desktop/axis_convolution_v1/ip_repo/axi_conv_fp_3x3_1.0/hdl/qmult.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module qmult
+INFO: [VRFC 10-2263] Analyzing Verilog file "c:/users/tung/desktop/axis_convolution_v1/ip_repo/axi_conv_fp_3x3_1.0/hdl/qadd.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module qadd
+INFO: [VRFC 10-2263] Analyzing Verilog file "c:/users/tung/desktop/axis_convolution_v1/ip_repo/axi_conv_fp_3x3_1.0/hdl/shift.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module shift
+INFO: [VRFC 10-2263] Analyzing Verilog file "c:/users/tung/desktop/axis_convolution_v1/ip_repo/axi_conv_fp_3x3_1.0/hdl/register.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module register
+INFO: [VRFC 10-2263] Analyzing Verilog file "c:/users/tung/desktop/axis_convolution_v1/ip_repo/axi_conv_fp_3x3_1.0/hdl/mac.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mac
+INFO: [VRFC 10-2263] Analyzing Verilog file "c:/users/tung/desktop/axis_convolution_v1/ip_repo/axi_conv_fp_3x3_1.0/hdl/conv.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module conv
+INFO: [VRFC 10-2263] Analyzing Verilog file "c:/users/tung/desktop/axis_convolution_v1/ip_repo/axi_conv_fp_3x3_1.0/hdl/axi_conv_fp_3x3_v1_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi_conv_fp_3x3_v1_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "c:/users/tung/desktop/axis_convolution_v1/ip_repo/axi_conv_fp_3x3_1.0/hdl/axi_conv_fp_3x3_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi_conv_fp_3x3_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "c:/users/tung/desktop/axis_convolution_v1/axi_conv_fp_3x3/axi_conv_fp_3x3.tmp/axi_conv_fp_3x3_v1_0_v1_0_project/axi_conv_fp_3x3_v1_0_v1_0_project.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
