@@ -1,0 +1,7 @@
+Running: xsim.dir/axi_conv_fp_3x3_tb_behav/xsimk.exe -simmode gui -wdb axi_conv_fp_3x3_tb_behav.wdb -simrunnum 0 -socket 1082
+Design successfully loaded
+Design Loading Memory Usage: 21564 KB (Peak: 21564 KB)
+Design Loading CPU Usage: 93 ms
+Simulation completed
+Simulation Memory Usage: 41296 KB (Peak: 41296 KB)
+Simulation CPU Usage: 368474 ms

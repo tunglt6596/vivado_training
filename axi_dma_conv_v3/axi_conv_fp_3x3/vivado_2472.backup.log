@@ -1,0 +1,783 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Fri Jul 27 08:28:32 2018
+# Process ID: 2416
+# Log file: C:/Users/Tung/Desktop/AXIS_Convolution_v1/axi_conv_fp_3x3/vivado.log
+# Journal file: C:/Users/Tung/Desktop/AXIS_Convolution_v1/axi_conv_fp_3x3\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Tung/Desktop/AXIS_Convolution_v1/axi_conv_fp_3x3/axi_conv_fp_3x3.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/TungLT/Desktop/AXIS_Convolution_v1/axi_conv_fp_3x3' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Tung/Desktop/AXIS_Convolution_v1/ip_repo/axi_conv_fp_3x3_1.0'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2015.2/data/ip'.
+open_project: Time (s): cpu = 00:00:14 ; elapsed = 00:00:12 . Memory (MB): peak = 740.367 ; gain = 159.730
+ipx::edit_ip_in_project -upgrade true -name axi_conv_fp_3x3_v1_0_v1_0_project -directory C:/Users/Tung/Desktop/AXIS_Convolution_v1/axi_conv_fp_3x3/axi_conv_fp_3x3.tmp/axi_conv_fp_3x3_v1_0_v1_0_project c:/Users/Tung/Desktop/AXIS_Convolution_v1/ip_repo/axi_conv_fp_3x3_1.0/component.xml
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'c:/users/tung/desktop/axis_convolution_v1/axi_conv_fp_3x3/axi_conv_fp_3x3.tmp/axi_conv_fp_3x3_v1_0_v1_0_project'
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2015.2/data/ip'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Tung/Desktop/AXIS_Convolution_v1/ip_repo/axi_conv_fp_3x3_1.0'.
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'axi_conv_fp_3x3_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'c:/users/tung/desktop/axis_convolution_v1/axi_conv_fp_3x3/axi_conv_fp_3x3.tmp/axi_conv_fp_3x3_v1_0_v1_0_project/axi_conv_fp_3x3_v1_0_v1_0_project.sim/sim_1/behav'
+"xvlog -m64 --relax -prj axi_conv_fp_3x3_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "c:/users/tung/desktop/axis_convolution_v1/ip_repo/axi_conv_fp_3x3_1.0/hdl/qmults.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module qmults
+INFO: [VRFC 10-2263] Analyzing Verilog file "c:/users/tung/desktop/axis_convolution_v1/ip_repo/axi_conv_fp_3x3_1.0/hdl/qadd.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module qadd
+INFO: [VRFC 10-2263] Analyzing Verilog file "c:/users/tung/desktop/axis_convolution_v1/ip_repo/axi_conv_fp_3x3_1.0/hdl/mac.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mac
+INFO: [VRFC 10-2263] Analyzing Verilog file "c:/users/tung/desktop/axis_convolution_v1/ip_repo/axi_conv_fp_3x3_1.0/hdl/shift.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module shift
+ERROR: [VRFC 10-529] concurrent assignment to a non-net data_out is not permitted [c:/users/tung/desktop/axis_convolution_v1/ip_repo/axi_conv_fp_3x3_1.0/hdl/shift.v:28]
+ERROR: [VRFC 10-1040] module shift ignored due to previous errors [c:/users/tung/desktop/axis_convolution_v1/ip_repo/axi_conv_fp_3x3_1.0/hdl/shift.v:4]
+ERROR: [USF-XSim-62] 'compile' step failed with error(s) while executing 'C:/Users/Tung/Desktop/AXIS_Convolution_v1/axi_conv_fp_3x3/axi_conv_fp_3x3.tmp/axi_conv_fp_3x3_v1_0_v1_0_project/axi_conv_fp_3x3_v1_0_v1_0_project.sim/sim_1/behav/compile.bat' script. Please check that the file has the correct 'read/write/execute' permissions and the Tcl console output for any other possible errors or warnings.
+launch_runs synth_1 -jobs 2
+INFO: [HDL 9-2216] Analyzing Verilog file "c:/users/tung/desktop/axis_convolution_v1/ip_repo/axi_conv_fp_3x3_1.0/hdl/axi_conv_fp_3x3_v1_0.v" into library work [c:/users/tung/desktop/axis_convolution_v1/ip_repo/axi_conv_fp_3x3_1.0/hdl/axi_conv_fp_3x3_v1_0.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "c:/users/tung/desktop/axis_convolution_v1/ip_repo/axi_conv_fp_3x3_1.0/hdl/conv.v" into library work [c:/users/tung/desktop/axis_convolution_v1/ip_repo/axi_conv_fp_3x3_1.0/hdl/conv.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "c:/users/tung/desktop/axis_convolution_v1/ip_repo/axi_conv_fp_3x3_1.0/hdl/mac.v" into library work [c:/users/tung/desktop/axis_convolution_v1/ip_repo/axi_conv_fp_3x3_1.0/hdl/mac.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "c:/users/tung/desktop/axis_convolution_v1/ip_repo/axi_conv_fp_3x3_1.0/hdl/qadd.v" into library work [c:/users/tung/desktop/axis_convolution_v1/ip_repo/axi_conv_fp_3x3_1.0/hdl/qadd.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "c:/users/tung/desktop/axis_convolution_v1/ip_repo/axi_conv_fp_3x3_1.0/hdl/qmults.v" into library work [c:/users/tung/desktop/axis_convolution_v1/ip_repo/axi_conv_fp_3x3_1.0/hdl/qmults.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "c:/users/tung/desktop/axis_convolution_v1/ip_repo/axi_conv_fp_3x3_1.0/hdl/register.v" into library work [c:/users/tung/desktop/axis_convolution_v1/ip_repo/axi_conv_fp_3x3_1.0/hdl/register.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "c:/users/tung/desktop/axis_convolution_v1/ip_repo/axi_conv_fp_3x3_1.0/hdl/shift.v" into library work [c:/users/tung/desktop/axis_convolution_v1/ip_repo/axi_conv_fp_3x3_1.0/hdl/shift.v:1]
+[Fri Jul 27 08:34:03 2018] Launched synth_1...
+Run output will be captured here: c:/users/tung/desktop/axis_convolution_v1/axi_conv_fp_3x3/axi_conv_fp_3x3.tmp/axi_conv_fp_3x3_v1_0_v1_0_project/axi_conv_fp_3x3_v1_0_v1_0_project.runs/synth_1/runme.log
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'axi_conv_fp_3x3_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'c:/users/tung/desktop/axis_convolution_v1/axi_conv_fp_3x3/axi_conv_fp_3x3.tmp/axi_conv_fp_3x3_v1_0_v1_0_project/axi_conv_fp_3x3_v1_0_v1_0_project.sim/sim_1/behav'
+"xvlog -m64 --relax -prj axi_conv_fp_3x3_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "c:/users/tung/desktop/axis_convolution_v1/ip_repo/axi_conv_fp_3x3_1.0/hdl/qmults.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module qmults
+INFO: [VRFC 10-2263] Analyzing Verilog file "c:/users/tung/desktop/axis_convolution_v1/ip_repo/axi_conv_fp_3x3_1.0/hdl/qadd.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module qadd
+INFO: [VRFC 10-2263] Analyzing Verilog file "c:/users/tung/desktop/axis_convolution_v1/ip_repo/axi_conv_fp_3x3_1.0/hdl/mac.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mac
+INFO: [VRFC 10-2263] Analyzing Verilog file "c:/users/tung/desktop/axis_convolution_v1/ip_repo/axi_conv_fp_3x3_1.0/hdl/shift.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module shift
+INFO: [VRFC 10-2263] Analyzing Verilog file "c:/users/tung/desktop/axis_convolution_v1/ip_repo/axi_conv_fp_3x3_1.0/hdl/register.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module register
+INFO: [VRFC 10-2263] Analyzing Verilog file "c:/users/tung/desktop/axis_convolution_v1/ip_repo/axi_conv_fp_3x3_1.0/hdl/conv.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module conv
+INFO: [VRFC 10-2263] Analyzing Verilog file "c:/users/tung/desktop/axis_convolution_v1/ip_repo/axi_conv_fp_3x3_1.0/hdl/axi_conv_fp_3x3_v1_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi_conv_fp_3x3_v1_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "c:/users/tung/desktop/axis_convolution_v1/ip_repo/axi_conv_fp_3x3_1.0/hdl/axi_conv_fp_3x3_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi_conv_fp_3x3_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "c:/users/tung/desktop/axis_convolution_v1/axi_conv_fp_3x3/axi_conv_fp_3x3.tmp/axi_conv_fp_3x3_v1_0_v1_0_project/axi_conv_fp_3x3_v1_0_v1_0_project.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'c:/users/tung/desktop/axis_convolution_v1/axi_conv_fp_3x3/axi_conv_fp_3x3.tmp/axi_conv_fp_3x3_v1_0_v1_0_project/axi_conv_fp_3x3_v1_0_v1_0_project.sim/sim_1/behav'
+Vivado Simulator 2015.2
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2015.2/bin/unwrapped/win64.o/xelab.exe -wto 4ce9f7b54dd945bfb4f4e6056d513aa6 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot axi_conv_fp_3x3_tb_behav xil_defaultlib.axi_conv_fp_3x3_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 24 for port b [c:/users/tung/desktop/axis_convolution_v1/ip_repo/axi_conv_fp_3x3_1.0/hdl/conv.v:69]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 24 for port b [c:/users/tung/desktop/axis_convolution_v1/ip_repo/axi_conv_fp_3x3_1.0/hdl/conv.v:70]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 24 for port b [c:/users/tung/desktop/axis_convolution_v1/ip_repo/axi_conv_fp_3x3_1.0/hdl/conv.v:71]
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "c:/users/tung/desktop/axis_convolution_v1/ip_repo/axi_conv_fp_3x3_1.0/hdl/shift.v" Line 4. Module shift_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "c:/users/tung/desktop/axis_convolution_v1/ip_repo/axi_conv_fp_3x3_1.0/hdl/shift.v" Line 4. Module shift_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "c:/users/tung/desktop/axis_convolution_v1/ip_repo/axi_conv_fp_3x3_1.0/hdl/shift.v" Line 4. Module shift_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "c:/users/tung/desktop/axis_convolution_v1/ip_repo/axi_conv_fp_3x3_1.0/hdl/shift.v" Line 4. Module shift_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "c:/users/tung/desktop/axis_convolution_v1/ip_repo/axi_conv_fp_3x3_1.0/hdl/shift.v" Line 4. Module shift_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "c:/users/tung/desktop/axis_convolution_v1/ip_repo/axi_conv_fp_3x3_1.0/hdl/shift.v" Line 4. Module shift_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "c:/users/tung/desktop/axis_convolution_v1/ip_repo/axi_conv_fp_3x3_1.0/hdl/shift.v" Line 4. Module shift_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "c:/users/tung/desktop/axis_convolution_v1/ip_repo/axi_conv_fp_3x3_1.0/hdl/shift.v" Line 4. Module shift_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "c:/users/tung/desktop/axis_convolution_v1/ip_repo/axi_conv_fp_3x3_1.0/hdl/shift.v" Line 4. Module shift_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "c:/users/tung/desktop/axis_convolution_v1/ip_repo/axi_conv_fp_3x3_1.0/hdl/shift.v" Line 4. Module shift_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "c:/users/tung/desktop/axis_convolution_v1/ip_repo/axi_conv_fp_3x3_1.0/hdl/shift.v" Line 4. Module shift_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "c:/users/tung/desktop/axis_convolution_v1/ip_repo/axi_conv_fp_3x3_1.0/hdl/shift.v" Line 4. Module shift_default doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.qmults
+Compiling module xil_defaultlib.qadd
+Compiling module xil_defaultlib.mac
+Compiling module xil_defaultlib.register
+Compiling module xil_defaultlib.shift_default
+Compiling module xil_defaultlib.conv
+Compiling module xil_defaultlib.axi_conv_fp_3x3_v1_0
+Compiling module xil_defaultlib.axi_conv_fp_3x3_tb
+Compiling module xil_defaultlib.glbl
+Waiting for 2 sub-compilation(s) to finish...
+Built simulation snapshot axi_conv_fp_3x3_tb_behav
+
+****** Webtalk v2015.2 (64-bit)
+  **** SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+  **** IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source c:/users/tung/desktop/axis_convolution_v1/axi_conv_fp_3x3/axi_conv_fp_3x3.tmp/axi_conv_fp_3x3_v1_0_v1_0_project/axi_conv_fp_3x3_v1_0_v1_0_project.sim/sim_1/behav/xsim.dir/axi_conv_fp_3x3_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+webtalk_transmit: Time (s): cpu = 00:00:00 ; elapsed = 00:00:08 . Memory (MB): peak = 88.516 ; gain = 0.027
+
+    while executing
+"webtalk_transmit -clientid 102809769 -regid "211455396_0_0_626" -xml c:/users/tung/desktop/axis_convolution_v1/axi_conv_fp_3x3/axi_conv_fp_3x3.tmp/axi..."
+    (file "c:/users/tung/desktop/axis_convolution_v1/axi_conv_fp_3x3/axi_conv_fp_3x3.tmp/axi_conv_fp_3x3_v1_0_v1_0_project/axi_conv_fp_3x3_v1_0_v1_0_project.sim/..." line 41)
+INFO: [Common 17-206] Exiting Webtalk at Fri Jul 27 08:34:40 2018...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:10 . Memory (MB): peak = 803.293 ; gain = 0.000
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'c:/users/tung/desktop/axis_convolution_v1/axi_conv_fp_3x3/axi_conv_fp_3x3.tmp/axi_conv_fp_3x3_v1_0_v1_0_project/axi_conv_fp_3x3_v1_0_v1_0_project.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "axi_conv_fp_3x3_tb_behav -key {Behavioral:sim_1:Functional:axi_conv_fp_3x3_tb} -tclbatch {axi_conv_fp_3x3_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2015.2
+Time resolution is 1 ps
+source axi_conv_fp_3x3_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+WARNING: [Wavedata 42-489] Can't add object "/axi_conv_fp_3x3_tb/data_reg" to the wave window because it has 9830400 bits, which exceeds the display limit of 65536 bits.  To change the display limit, use the command "set_property display_limit <new limit> [current_wave_config]".
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'axi_conv_fp_3x3_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:14 . Memory (MB): peak = 824.910 ; gain = 21.617
+run all
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+run: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 824.910 ; gain = 0.000
+INFO: [Common 17-344] 'run' was cancelled
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:00 ; elapsed = 00:02:01 . Memory (MB): peak = 855.246 ; gain = 0.000
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'axi_conv_fp_3x3_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'c:/users/tung/desktop/axis_convolution_v1/axi_conv_fp_3x3/axi_conv_fp_3x3.tmp/axi_conv_fp_3x3_v1_0_v1_0_project/axi_conv_fp_3x3_v1_0_v1_0_project.sim/sim_1/behav'
+"xvlog -m64 --relax -prj axi_conv_fp_3x3_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "c:/users/tung/desktop/axis_convolution_v1/ip_repo/axi_conv_fp_3x3_1.0/hdl/qmults.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module qmults
+INFO: [VRFC 10-2263] Analyzing Verilog file "c:/users/tung/desktop/axis_convolution_v1/ip_repo/axi_conv_fp_3x3_1.0/hdl/qadd.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module qadd
+INFO: [VRFC 10-2263] Analyzing Verilog file "c:/users/tung/desktop/axis_convolution_v1/ip_repo/axi_conv_fp_3x3_1.0/hdl/mac.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mac
+INFO: [VRFC 10-2263] Analyzing Verilog file "c:/users/tung/desktop/axis_convolution_v1/ip_repo/axi_conv_fp_3x3_1.0/hdl/shift.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module shift
+INFO: [VRFC 10-2263] Analyzing Verilog file "c:/users/tung/desktop/axis_convolution_v1/ip_repo/axi_conv_fp_3x3_1.0/hdl/register.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module register
+INFO: [VRFC 10-2263] Analyzing Verilog file "c:/users/tung/desktop/axis_convolution_v1/ip_repo/axi_conv_fp_3x3_1.0/hdl/conv.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module conv
+INFO: [VRFC 10-2263] Analyzing Verilog file "c:/users/tung/desktop/axis_convolution_v1/ip_repo/axi_conv_fp_3x3_1.0/hdl/axi_conv_fp_3x3_v1_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi_conv_fp_3x3_v1_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "c:/users/tung/desktop/axis_convolution_v1/ip_repo/axi_conv_fp_3x3_1.0/hdl/axi_conv_fp_3x3_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi_conv_fp_3x3_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "c:/users/tung/desktop/axis_convolution_v1/axi_conv_fp_3x3/axi_conv_fp_3x3.tmp/axi_conv_fp_3x3_v1_0_v1_0_project/axi_conv_fp_3x3_v1_0_v1_0_project.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'c:/users/tung/desktop/axis_convolution_v1/axi_conv_fp_3x3/axi_conv_fp_3x3.tmp/axi_conv_fp_3x3_v1_0_v1_0_project/axi_conv_fp_3x3_v1_0_v1_0_project.sim/sim_1/behav'
+Vivado Simulator 2015.2
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2015.2/bin/unwrapped/win64.o/xelab.exe -wto 4ce9f7b54dd945bfb4f4e6056d513aa6 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot axi_conv_fp_3x3_tb_behav xil_defaultlib.axi_conv_fp_3x3_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 24 for port b [c:/users/tung/desktop/axis_convolution_v1/ip_repo/axi_conv_fp_3x3_1.0/hdl/conv.v:69]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 24 for port b [c:/users/tung/desktop/axis_convolution_v1/ip_repo/axi_conv_fp_3x3_1.0/hdl/conv.v:70]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 24 for port b [c:/users/tung/desktop/axis_convolution_v1/ip_repo/axi_conv_fp_3x3_1.0/hdl/conv.v:71]
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "c:/users/tung/desktop/axis_convolution_v1/ip_repo/axi_conv_fp_3x3_1.0/hdl/shift.v" Line 4. Module shift_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "c:/users/tung/desktop/axis_convolution_v1/ip_repo/axi_conv_fp_3x3_1.0/hdl/shift.v" Line 4. Module shift_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "c:/users/tung/desktop/axis_convolution_v1/ip_repo/axi_conv_fp_3x3_1.0/hdl/shift.v" Line 4. Module shift_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "c:/users/tung/desktop/axis_convolution_v1/ip_repo/axi_conv_fp_3x3_1.0/hdl/shift.v" Line 4. Module shift_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "c:/users/tung/desktop/axis_convolution_v1/ip_repo/axi_conv_fp_3x3_1.0/hdl/shift.v" Line 4. Module shift_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "c:/users/tung/desktop/axis_convolution_v1/ip_repo/axi_conv_fp_3x3_1.0/hdl/shift.v" Line 4. Module shift_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "c:/users/tung/desktop/axis_convolution_v1/ip_repo/axi_conv_fp_3x3_1.0/hdl/shift.v" Line 4. Module shift_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "c:/users/tung/desktop/axis_convolution_v1/ip_repo/axi_conv_fp_3x3_1.0/hdl/shift.v" Line 4. Module shift_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "c:/users/tung/desktop/axis_convolution_v1/ip_repo/axi_conv_fp_3x3_1.0/hdl/shift.v" Line 4. Module shift_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "c:/users/tung/desktop/axis_convolution_v1/ip_repo/axi_conv_fp_3x3_1.0/hdl/shift.v" Line 4. Module shift_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "c:/users/tung/desktop/axis_convolution_v1/ip_repo/axi_conv_fp_3x3_1.0/hdl/shift.v" Line 4. Module shift_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "c:/users/tung/desktop/axis_convolution_v1/ip_repo/axi_conv_fp_3x3_1.0/hdl/shift.v" Line 4. Module shift_default doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.qmults
+Compiling module xil_defaultlib.qadd
+Compiling module xil_defaultlib.mac
+Compiling module xil_defaultlib.register
+Compiling module xil_defaultlib.shift_default
+Compiling module xil_defaultlib.conv
+Compiling module xil_defaultlib.axi_conv_fp_3x3_v1_0
+Compiling module xil_defaultlib.axi_conv_fp_3x3_tb
+Compiling module xil_defaultlib.glbl
+Waiting for 2 sub-compilation(s) to finish...
+Built simulation snapshot axi_conv_fp_3x3_tb_behav
+
+****** Webtalk v2015.2 (64-bit)
+  **** SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+  **** IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source c:/users/tung/desktop/axis_convolution_v1/axi_conv_fp_3x3/axi_conv_fp_3x3.tmp/axi_conv_fp_3x3_v1_0_v1_0_project/axi_conv_fp_3x3_v1_0_v1_0_project.sim/sim_1/behav/xsim.dir/axi_conv_fp_3x3_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+webtalk_transmit: Time (s): cpu = 00:00:00 ; elapsed = 00:00:08 . Memory (MB): peak = 88.660 ; gain = 0.031
+
+    while executing
+"webtalk_transmit -clientid 666371209 -regid "211455396_0_0_626" -xml c:/users/tung/desktop/axis_convolution_v1/axi_conv_fp_3x3/axi_conv_fp_3x3.tmp/axi..."
+    (file "c:/users/tung/desktop/axis_convolution_v1/axi_conv_fp_3x3/axi_conv_fp_3x3.tmp/axi_conv_fp_3x3_v1_0_v1_0_project/axi_conv_fp_3x3_v1_0_v1_0_project.sim/..." line 41)
+INFO: [Common 17-206] Exiting Webtalk at Fri Jul 27 08:38:35 2018...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:10 . Memory (MB): peak = 855.246 ; gain = 0.000
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'c:/users/tung/desktop/axis_convolution_v1/axi_conv_fp_3x3/axi_conv_fp_3x3.tmp/axi_conv_fp_3x3_v1_0_v1_0_project/axi_conv_fp_3x3_v1_0_v1_0_project.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "axi_conv_fp_3x3_tb_behav -key {Behavioral:sim_1:Functional:axi_conv_fp_3x3_tb} -tclbatch {axi_conv_fp_3x3_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2015.2
+Time resolution is 1 ps
+source axi_conv_fp_3x3_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+WARNING: [Wavedata 42-489] Can't add object "/axi_conv_fp_3x3_tb/data_reg" to the wave window because it has 9830400 bits, which exceeds the display limit of 65536 bits.  To change the display limit, use the command "set_property display_limit <new limit> [current_wave_config]".
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'axi_conv_fp_3x3_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:14 . Memory (MB): peak = 855.246 ; gain = 0.000
+run all
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+run: Time (s): cpu = 00:00:01 ; elapsed = 00:00:13 . Memory (MB): peak = 855.246 ; gain = 0.000
+INFO: [Common 17-344] 'run' was cancelled
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:00 ; elapsed = 00:00:12 . Memory (MB): peak = 855.246 ; gain = 0.000
+ipx::merge_project_changes hdl_parameters [ipx::current_core]
+INFO: [IP_Flow 19-2418] Expression "((C_S_AXIS_TDATA_WIDTH / 8) - 1)": Will not convert operator '/' to XPATH 'div' to allow integer division if applicable.
+INFO: [IP_Flow 19-2418] Expression "((C_M_AXIS_TDATA_WIDTH / 8) - 1)": Will not convert operator '/' to XPATH 'div' to allow integer division if applicable.
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+INFO: [HDL 9-2216] Analyzing Verilog file "c:/users/tung/desktop/axis_convolution_v1/ip_repo/axi_conv_fp_3x3_1.0/hdl/axi_conv_fp_3x3_v1_0.v" into library work [c:/users/tung/desktop/axis_convolution_v1/ip_repo/axi_conv_fp_3x3_1.0/hdl/axi_conv_fp_3x3_v1_0.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "c:/users/tung/desktop/axis_convolution_v1/ip_repo/axi_conv_fp_3x3_1.0/hdl/conv.v" into library work [c:/users/tung/desktop/axis_convolution_v1/ip_repo/axi_conv_fp_3x3_1.0/hdl/conv.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "c:/users/tung/desktop/axis_convolution_v1/ip_repo/axi_conv_fp_3x3_1.0/hdl/mac.v" into library work [c:/users/tung/desktop/axis_convolution_v1/ip_repo/axi_conv_fp_3x3_1.0/hdl/mac.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "c:/users/tung/desktop/axis_convolution_v1/ip_repo/axi_conv_fp_3x3_1.0/hdl/qadd.v" into library work [c:/users/tung/desktop/axis_convolution_v1/ip_repo/axi_conv_fp_3x3_1.0/hdl/qadd.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "c:/users/tung/desktop/axis_convolution_v1/ip_repo/axi_conv_fp_3x3_1.0/hdl/qmults.v" into library work [c:/users/tung/desktop/axis_convolution_v1/ip_repo/axi_conv_fp_3x3_1.0/hdl/qmults.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "c:/users/tung/desktop/axis_convolution_v1/ip_repo/axi_conv_fp_3x3_1.0/hdl/register.v" into library work [c:/users/tung/desktop/axis_convolution_v1/ip_repo/axi_conv_fp_3x3_1.0/hdl/register.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "c:/users/tung/desktop/axis_convolution_v1/ip_repo/axi_conv_fp_3x3_1.0/hdl/shift.v" into library work [c:/users/tung/desktop/axis_convolution_v1/ip_repo/axi_conv_fp_3x3_1.0/hdl/shift.v:1]
+[Fri Jul 27 08:40:38 2018] Launched synth_1...
+Run output will be captured here: c:/users/tung/desktop/axis_convolution_v1/axi_conv_fp_3x3/axi_conv_fp_3x3.tmp/axi_conv_fp_3x3_v1_0_v1_0_project/axi_conv_fp_3x3_v1_0_v1_0_project.runs/synth_1/runme.log
+launch_simulation
+WARNING: [Vivado 12-3661] Failed to remove file:c:/users/tung/desktop/axis_convolution_v1/axi_conv_fp_3x3/axi_conv_fp_3x3.tmp/axi_conv_fp_3x3_v1_0_v1_0_project/axi_conv_fp_3x3_v1_0_v1_0_project.sim/sim_1/behav/xelab.pb
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'axi_conv_fp_3x3_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'c:/users/tung/desktop/axis_convolution_v1/axi_conv_fp_3x3/axi_conv_fp_3x3.tmp/axi_conv_fp_3x3_v1_0_v1_0_project/axi_conv_fp_3x3_v1_0_v1_0_project.sim/sim_1/behav'
+"xvlog -m64 --relax -prj axi_conv_fp_3x3_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "c:/users/tung/desktop/axis_convolution_v1/ip_repo/axi_conv_fp_3x3_1.0/hdl/qmults.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module qmults
+INFO: [VRFC 10-2263] Analyzing Verilog file "c:/users/tung/desktop/axis_convolution_v1/ip_repo/axi_conv_fp_3x3_1.0/hdl/qadd.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module qadd
+INFO: [VRFC 10-2263] Analyzing Verilog file "c:/users/tung/desktop/axis_convolution_v1/ip_repo/axi_conv_fp_3x3_1.0/hdl/mac.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mac
+INFO: [VRFC 10-2263] Analyzing Verilog file "c:/users/tung/desktop/axis_convolution_v1/ip_repo/axi_conv_fp_3x3_1.0/hdl/shift.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module shift
+INFO: [VRFC 10-2263] Analyzing Verilog file "c:/users/tung/desktop/axis_convolution_v1/ip_repo/axi_conv_fp_3x3_1.0/hdl/register.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module register
+INFO: [VRFC 10-2263] Analyzing Verilog file "c:/users/tung/desktop/axis_convolution_v1/ip_repo/axi_conv_fp_3x3_1.0/hdl/conv.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module conv
+INFO: [VRFC 10-2263] Analyzing Verilog file "c:/users/tung/desktop/axis_convolution_v1/ip_repo/axi_conv_fp_3x3_1.0/hdl/axi_conv_fp_3x3_v1_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi_conv_fp_3x3_v1_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "c:/users/tung/desktop/axis_convolution_v1/ip_repo/axi_conv_fp_3x3_1.0/hdl/axi_conv_fp_3x3_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi_conv_fp_3x3_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "c:/users/tung/desktop/axis_convolution_v1/axi_conv_fp_3x3/axi_conv_fp_3x3.tmp/axi_conv_fp_3x3_v1_0_v1_0_project/axi_conv_fp_3x3_v1_0_v1_0_project.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'c:/users/tung/desktop/axis_convolution_v1/axi_conv_fp_3x3/axi_conv_fp_3x3.tmp/axi_conv_fp_3x3_v1_0_v1_0_project/axi_conv_fp_3x3_v1_0_v1_0_project.sim/sim_1/behav'
+Vivado Simulator 2015.2
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2015.2/bin/unwrapped/win64.o/xelab.exe -wto 4ce9f7b54dd945bfb4f4e6056d513aa6 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot axi_conv_fp_3x3_tb_behav xil_defaultlib.axi_conv_fp_3x3_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 24 for port b [c:/users/tung/desktop/axis_convolution_v1/ip_repo/axi_conv_fp_3x3_1.0/hdl/conv.v:69]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 24 for port b [c:/users/tung/desktop/axis_convolution_v1/ip_repo/axi_conv_fp_3x3_1.0/hdl/conv.v:70]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 24 for port b [c:/users/tung/desktop/axis_convolution_v1/ip_repo/axi_conv_fp_3x3_1.0/hdl/conv.v:71]
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "c:/users/tung/desktop/axis_convolution_v1/ip_repo/axi_conv_fp_3x3_1.0/hdl/shift.v" Line 4. Module shift_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "c:/users/tung/desktop/axis_convolution_v1/ip_repo/axi_conv_fp_3x3_1.0/hdl/shift.v" Line 4. Module shift_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "c:/users/tung/desktop/axis_convolution_v1/ip_repo/axi_conv_fp_3x3_1.0/hdl/shift.v" Line 4. Module shift_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "c:/users/tung/desktop/axis_convolution_v1/ip_repo/axi_conv_fp_3x3_1.0/hdl/shift.v" Line 4. Module shift_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "c:/users/tung/desktop/axis_convolution_v1/ip_repo/axi_conv_fp_3x3_1.0/hdl/shift.v" Line 4. Module shift_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "c:/users/tung/desktop/axis_convolution_v1/ip_repo/axi_conv_fp_3x3_1.0/hdl/shift.v" Line 4. Module shift_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "c:/users/tung/desktop/axis_convolution_v1/ip_repo/axi_conv_fp_3x3_1.0/hdl/shift.v" Line 4. Module shift_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "c:/users/tung/desktop/axis_convolution_v1/ip_repo/axi_conv_fp_3x3_1.0/hdl/shift.v" Line 4. Module shift_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "c:/users/tung/desktop/axis_convolution_v1/ip_repo/axi_conv_fp_3x3_1.0/hdl/shift.v" Line 4. Module shift_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "c:/users/tung/desktop/axis_convolution_v1/ip_repo/axi_conv_fp_3x3_1.0/hdl/shift.v" Line 4. Module shift_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "c:/users/tung/desktop/axis_convolution_v1/ip_repo/axi_conv_fp_3x3_1.0/hdl/shift.v" Line 4. Module shift_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "c:/users/tung/desktop/axis_convolution_v1/ip_repo/axi_conv_fp_3x3_1.0/hdl/shift.v" Line 4. Module shift_default doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.qmults
+Compiling module xil_defaultlib.qadd
+Compiling module xil_defaultlib.mac
+Compiling module xil_defaultlib.register
+Compiling module xil_defaultlib.shift_default
+Compiling module xil_defaultlib.conv
+Compiling module xil_defaultlib.axi_conv_fp_3x3_v1_0
+Compiling module xil_defaultlib.axi_conv_fp_3x3_tb
+Compiling module xil_defaultlib.glbl
+Waiting for 2 sub-compilation(s) to finish...
+Built simulation snapshot axi_conv_fp_3x3_tb_behav
+
+****** Webtalk v2015.2 (64-bit)
+  **** SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+  **** IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source c:/users/tung/desktop/axis_convolution_v1/axi_conv_fp_3x3/axi_conv_fp_3x3.tmp/axi_conv_fp_3x3_v1_0_v1_0_project/axi_conv_fp_3x3_v1_0_v1_0_project.sim/sim_1/behav/xsim.dir/axi_conv_fp_3x3_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+webtalk_transmit: Time (s): cpu = 00:00:00 ; elapsed = 00:00:08 . Memory (MB): peak = 88.461 ; gain = 0.027
+
+    while executing
+"webtalk_transmit -clientid 1822322768 -regid "211455396_0_0_626" -xml c:/users/tung/desktop/axis_convolution_v1/axi_conv_fp_3x3/axi_conv_fp_3x3.tmp/ax..."
+    (file "c:/users/tung/desktop/axis_convolution_v1/axi_conv_fp_3x3/axi_conv_fp_3x3.tmp/axi_conv_fp_3x3_v1_0_v1_0_project/axi_conv_fp_3x3_v1_0_v1_0_project.sim/..." line 41)
+INFO: [Common 17-206] Exiting Webtalk at Fri Jul 27 08:41:22 2018...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:10 . Memory (MB): peak = 855.246 ; gain = 0.000
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'c:/users/tung/desktop/axis_convolution_v1/axi_conv_fp_3x3/axi_conv_fp_3x3.tmp/axi_conv_fp_3x3_v1_0_v1_0_project/axi_conv_fp_3x3_v1_0_v1_0_project.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "axi_conv_fp_3x3_tb_behav -key {Behavioral:sim_1:Functional:axi_conv_fp_3x3_tb} -tclbatch {axi_conv_fp_3x3_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2015.2
+Time resolution is 1 ps
+source axi_conv_fp_3x3_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+WARNING: [Wavedata 42-489] Can't add object "/axi_conv_fp_3x3_tb/data_reg" to the wave window because it has 9830400 bits, which exceeds the display limit of 65536 bits.  To change the display limit, use the command "set_property display_limit <new limit> [current_wave_config]".
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'axi_conv_fp_3x3_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:14 . Memory (MB): peak = 855.246 ; gain = 0.000
+run all
+run: Time (s): cpu = 00:00:28 ; elapsed = 00:06:40 . Memory (MB): peak = 855.246 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:10 . Memory (MB): peak = 855.246 ; gain = 0.000
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+close_project -delete
+****** Webtalk v2015.2 (64-bit)
+  **** SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+  **** IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source c:/users/tung/desktop/axis_convolution_v1/axi_conv_fp_3x3/axi_conv_fp_3x3.tmp/axi_conv_fp_3x3_v1_0_v1_0_project/axi_conv_fp_3x3_v1_0_v1_0_project.hw/webtalk/labtool_webtalk.tcl -notrace
+webtalk_transmit: Time (s): cpu = 00:00:00 ; elapsed = 00:01:51 . Memory (MB): peak = 88.395 ; gain = 0.051
+
+    while executing
+"webtalk_transmit -clientid 1751562448 -regid "211455396_0_0_626" -xml c:/users/tung/desktop/axis_convolution_v1/axi_conv_fp_3x3/axi_conv_fp_3x3.tmp/ax..."
+    (file "c:/users/tung/desktop/axis_convolution_v1/axi_conv_fp_3x3/axi_conv_fp_3x3.tmp/axi_conv_fp_3x3_v1_0_v1_0_project/axi_conv_fp_3x3_v1_0_v1_0_project.hw/w..." line 26)
+INFO: [Common 17-206] Exiting Webtalk at Fri Jul 27 08:53:03 2018...
+close_project: Time (s): cpu = 00:00:03 ; elapsed = 00:02:02 . Memory (MB): peak = 855.246 ; gain = 0.000
+update_ip_catalog -rebuild -repo_path c:/Users/Tung/Desktop/AXIS_Convolution_v1/ip_repo/axi_conv_fp_3x3_1.0
+INFO: [IP_Flow 19-725] Reloaded user IP repository 'c:/Users/Tung/Desktop/AXIS_Convolution_v1/ip_repo/axi_conv_fp_3x3_1.0'
+open_bd_design {C:/Users/Tung/Desktop/AXIS_Convolution_v1/axi_conv_fp_3x3/axi_conv_fp_3x3.srcs/sources_1/bd/design_1/design_1.bd}
+Adding component instance block -- xilinx.com:ip:processing_system7:5.5 - processing_system7_0
+Adding component instance block -- xilinx.com:ip:proc_sys_reset:5.0 - rst_processing_system7_0_100M
+Adding component instance block -- xilinx.com:ip:axi_gpio:2.0 - axi_gpio_0
+Adding component instance block -- xilinx.com:ip:axi_dma:7.1 - axi_dma_0
+Adding component instance block -- xilinx.com:ip:xlconstant:1.1 - xlconstant_0
+Adding component instance block -- xilinx.com:user:axi_conv_fp_3x3:1.0 - axi_conv_fp_3x3_0
+Adding component instance block -- xilinx.com:ip:axi_crossbar:2.1 - xbar
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:axi_dwidth_converter:2.1 - auto_us
+Adding component instance block -- xilinx.com:ip:axi_crossbar:2.1 - xbar
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Successfully read diagram <design_1> from BD file <C:/Users/Tung/Desktop/AXIS_Convolution_v1/axi_conv_fp_3x3/axi_conv_fp_3x3.srcs/sources_1/bd/design_1/design_1.bd>
+report_ip_status -name ip_status 
+upgrade_ip -vlnv xilinx.com:user:axi_conv_fp_3x3:1.0 [get_ips  design_1_axi_conv_fp_3x3_0_0]
+Upgrading 'C:/Users/Tung/Desktop/AXIS_Convolution_v1/axi_conv_fp_3x3/axi_conv_fp_3x3.srcs/sources_1/bd/design_1/design_1.bd'
+INFO: [IP_Flow 19-1972] Upgraded design_1_axi_conv_fp_3x3_0_0 from axi_conv_fp_3x3_v1.0 1.0 to axi_conv_fp_3x3_v1.0 1.0
+INFO: [IP_Flow 19-3471] Wrote upgrade log to 'c:/Users/Tung/Desktop/AXIS_Convolution_v1/axi_conv_fp_3x3/axi_conv_fp_3x3.srcs/sources_1/bd/design_1/ip/design_1_axi_conv_fp_3x3_0_0_2/design_1_axi_conv_fp_3x3_0_0.upgrade_log'.
+Wrote  : <C:/Users/Tung/Desktop/AXIS_Convolution_v1/axi_conv_fp_3x3/axi_conv_fp_3x3.srcs/sources_1/bd/design_1/design_1.bd> 
+report_ip_status -name ip_status 
+reset_target all [get_files  C:/Users/Tung/Desktop/AXIS_Convolution_v1/axi_conv_fp_3x3/axi_conv_fp_3x3.srcs/sources_1/bd/design_1/design_1.bd]
+make_wrapper -files [get_files C:/Users/Tung/Desktop/AXIS_Convolution_v1/axi_conv_fp_3x3/axi_conv_fp_3x3.srcs/sources_1/bd/design_1/design_1.bd] -top
+INFO: [Ipptcl 7-578] No Compatible Board Interface found.Board Tab not created
+CRITICAL WARNING: [BD 41-759] The input pins (listed below) are either not connected or do not have a source port, and they don't have a tie-off specified. 
+Please check your design and connect them if needed: 
+/axi_conv_fp_3x3_0/s_axis_tstrb
+
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/axi_mem_intercon/M00_AXI_bid'(1) to net 'axi_mem_intercon_M00_AXI_BID'(6) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/axi_mem_intercon/M00_AXI_rid'(1) to net 'axi_mem_intercon_M00_AXI_RID'(6) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/processing_system7_0/S_AXI_HP0_WID'(6) to net 'axi_mem_intercon_M00_AXI_WID'(1) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/processing_system7_0/S_AXI_HP0_ARID'(6) to net 'axi_mem_intercon_M00_AXI_ARID'(1) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/processing_system7_0/S_AXI_HP0_AWID'(6) to net 'axi_mem_intercon_M00_AXI_AWID'(1) - Only lower order bits will be connected.
+Verilog Output written to : C:/Users/Tung/Desktop/AXIS_Convolution_v1/axi_conv_fp_3x3/axi_conv_fp_3x3.srcs/sources_1/bd/design_1/hdl/design_1.v
+Verilog Output written to : C:/Users/Tung/Desktop/AXIS_Convolution_v1/axi_conv_fp_3x3/axi_conv_fp_3x3.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.v
+Wrote  : <C:/Users/Tung/Desktop/AXIS_Convolution_v1/axi_conv_fp_3x3/axi_conv_fp_3x3.srcs/sources_1/bd/design_1/design_1.bd> 
+make_wrapper: Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 999.563 ; gain = 103.941
+generate_target all [get_files  C:/Users/Tung/Desktop/AXIS_Convolution_v1/axi_conv_fp_3x3/axi_conv_fp_3x3.srcs/sources_1/bd/design_1/design_1.bd]
+INFO: [BD 41-1662] The design 'design_1.bd' is already validated. Therefore parameter propagation will not be re-run.
+CRITICAL WARNING: [BD 41-759] The input pins (listed below) are either not connected or do not have a source port, and they don't have a tie-off specified. 
+Please check your design and connect them if needed: 
+/axi_conv_fp_3x3_0/s_axis_tstrb
+
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/axi_mem_intercon/M00_AXI_bid'(1) to net 'axi_mem_intercon_M00_AXI_BID'(6) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/axi_mem_intercon/M00_AXI_rid'(1) to net 'axi_mem_intercon_M00_AXI_RID'(6) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/processing_system7_0/S_AXI_HP0_WID'(6) to net 'axi_mem_intercon_M00_AXI_WID'(1) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/processing_system7_0/S_AXI_HP0_ARID'(6) to net 'axi_mem_intercon_M00_AXI_ARID'(1) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/processing_system7_0/S_AXI_HP0_AWID'(6) to net 'axi_mem_intercon_M00_AXI_AWID'(1) - Only lower order bits will be connected.
+Verilog Output written to : C:/Users/Tung/Desktop/AXIS_Convolution_v1/axi_conv_fp_3x3/axi_conv_fp_3x3.srcs/sources_1/bd/design_1/hdl/design_1.v
+Verilog Output written to : C:/Users/Tung/Desktop/AXIS_Convolution_v1/axi_conv_fp_3x3/axi_conv_fp_3x3.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.v
+Wrote  : <C:/Users/Tung/Desktop/AXIS_Convolution_v1/axi_conv_fp_3x3/axi_conv_fp_3x3.srcs/sources_1/bd/design_1/design_1.bd> 
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'design_1_axi_conv_fp_3x3_0_0'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'design_1_axi_conv_fp_3x3_0_0'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'design_1_axi_conv_fp_3x3_0_0'...
+INFO: [IP_Flow 19-1686] Generating 'Test Bench' target for IP 'design_1_axi_conv_fp_3x3_0_0'...
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_conv_fp_3x3_0 .
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'design_1_processing_system7_0_0'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'design_1_processing_system7_0_0'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'design_1_processing_system7_0_0'...
+WARNING: [xilinx.com:ip:processing_system7:5.5-1] design_1_processing_system7_0_0: The Zynq BFM requires an AXI BFM license to run. Please ensure that you have purchased and setup the AXI BFM license prior to running simulation with this block. Please contact your Xilinx sales office for more information on purchasing this license
+INFO: [IP_Flow 19-1686] Generating 'Miscellaneous' target for IP 'design_1_processing_system7_0_0'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'design_1_processing_system7_0_0'...
+INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0 .
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'design_1_rst_processing_system7_0_100M_0'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'design_1_rst_processing_system7_0_100M_0'...
+WARNING: [IP_Flow 19-1687] The current project language is set to Verilog. However IP 'design_1_rst_processing_system7_0_100M_0' does not support 'Verilog Synthesis' output products, delivering 'VHDL Synthesis' output products instead.
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'design_1_rst_processing_system7_0_100M_0'...
+WARNING: [IP_Flow 19-1687] The current project language is set to Verilog. However IP 'design_1_rst_processing_system7_0_100M_0' does not support 'Verilog Simulation' output products, delivering 'VHDL Simulation' output products instead.
+INFO: [IP_Flow 19-1686] Generating 'Implementation' target for IP 'design_1_rst_processing_system7_0_100M_0'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'design_1_rst_processing_system7_0_100M_0'...
+INFO: [BD 41-1029] Generation completed for the IP Integrator block rst_processing_system7_0_100M .
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'design_1_xbar_0'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'design_1_xbar_0'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'design_1_xbar_0'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'design_1_xbar_0'...
+INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0_axi_periph/xbar .
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'design_1_xbar_1'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'design_1_xbar_1'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'design_1_xbar_1'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'design_1_xbar_1'...
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/xbar .
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'design_1_axi_gpio_0_0'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'design_1_axi_gpio_0_0'...
+WARNING: [IP_Flow 19-1687] The current project language is set to Verilog. However IP 'design_1_axi_gpio_0_0' does not support 'Verilog Synthesis' output products, delivering 'VHDL Synthesis' output products instead.
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'design_1_axi_gpio_0_0'...
+WARNING: [IP_Flow 19-1687] The current project language is set to Verilog. However IP 'design_1_axi_gpio_0_0' does not support 'Verilog Simulation' output products, delivering 'VHDL Simulation' output products instead.
+INFO: [IP_Flow 19-1686] Generating 'Implementation' target for IP 'design_1_axi_gpio_0_0'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'design_1_axi_gpio_0_0'...
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_gpio_0 .
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'design_1_axi_dma_0_1'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'design_1_axi_dma_0_1'...
+WARNING: [IP_Flow 19-1687] The current project language is set to Verilog. However IP 'design_1_axi_dma_0_1' does not support 'Verilog Synthesis' output products, delivering 'VHDL Synthesis' output products instead.
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'design_1_axi_dma_0_1'...
+WARNING: [IP_Flow 19-1687] The current project language is set to Verilog. However IP 'design_1_axi_dma_0_1' does not support 'Verilog Simulation' output products, delivering 'VHDL Simulation' output products instead.
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'design_1_axi_dma_0_1'...
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_dma_0 .
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'design_1_xlconstant_0_1'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'design_1_xlconstant_0_1'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'design_1_xlconstant_0_1'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'design_1_xlconstant_0_1'...
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconstant_0 .
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'design_1_auto_pc_0'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'design_1_auto_pc_0'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'design_1_auto_pc_0'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'design_1_auto_pc_0'...
+INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0_axi_periph/s00_couplers/auto_pc .
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'design_1_auto_pc_1'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'design_1_auto_pc_1'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'design_1_auto_pc_1'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'design_1_auto_pc_1'...
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/m00_couplers/auto_pc .
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'design_1_auto_us_0'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'design_1_auto_us_0'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'design_1_auto_us_0'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'design_1_auto_us_0'...
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/s01_couplers/auto_us .
+INFO: [BD 41-1379] This design does not contain any processor.
+Exporting to file C:/Users/Tung/Desktop/AXIS_Convolution_v1/axi_conv_fp_3x3/axi_conv_fp_3x3.srcs/sources_1/bd/design_1/hw_handoff/design_1.hwh
+Generated Block Design Tcl file C:/Users/Tung/Desktop/AXIS_Convolution_v1/axi_conv_fp_3x3/axi_conv_fp_3x3.srcs/sources_1/bd/design_1/hw_handoff/design_1_bd.tcl
+Generated Hardware Definition File C:/Users/Tung/Desktop/AXIS_Convolution_v1/axi_conv_fp_3x3/axi_conv_fp_3x3.srcs/sources_1/bd/design_1/hdl/design_1.hwdef
+generate_target: Time (s): cpu = 00:00:24 ; elapsed = 00:00:27 . Memory (MB): peak = 1051.695 ; gain = 34.305
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+[Fri Jul 27 08:54:49 2018] Launched synth_1...
+Run output will be captured here: C:/Users/Tung/Desktop/AXIS_Convolution_v1/axi_conv_fp_3x3/axi_conv_fp_3x3.runs/synth_1/runme.log
+[Fri Jul 27 08:54:49 2018] Launched impl_1...
+Run output will be captured here: C:/Users/Tung/Desktop/AXIS_Convolution_v1/axi_conv_fp_3x3/axi_conv_fp_3x3.runs/impl_1/runme.log
+regenerate_bd_layout
+regenerate_bd_layout
+save_bd_design
+Wrote  : <C:/Users/Tung/Desktop/AXIS_Convolution_v1/axi_conv_fp_3x3/axi_conv_fp_3x3.srcs/sources_1/bd/design_1/design_1.bd> 
+write_hwdef -force  -file C:/Users/Tung/Desktop/AXIS_Convolution_v1/axi_conv_fp_3x3/axi_conv_fp_3x3.sdk/design_1_wrapper.hdf
+launch_sdk -workspace C:/Users/Tung/Desktop/AXIS_Convolution_v1/axi_conv_fp_3x3/axi_conv_fp_3x3.sdk -hwspec C:/Users/Tung/Desktop/AXIS_Convolution_v1/axi_conv_fp_3x3/axi_conv_fp_3x3.sdk/design_1_wrapper.hdf
+INFO: [Vivado 12-393] Launching SDK...
+INFO: [Vivado 12-417] Running xsdk -workspace C:/Users/Tung/Desktop/AXIS_Convolution_v1/axi_conv_fp_3x3/axi_conv_fp_3x3.sdk -hwspec C:/Users/Tung/Desktop/AXIS_Convolution_v1/axi_conv_fp_3x3/axi_conv_fp_3x3.sdk/design_1_wrapper.hdf
+INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages.
+ipx::edit_ip_in_project -upgrade true -name axi_conv_fp_3x3_v1_0_v1_0_project -directory C:/Users/Tung/Desktop/AXIS_Convolution_v1/axi_conv_fp_3x3/axi_conv_fp_3x3.tmp/axi_conv_fp_3x3_v1_0_v1_0_project c:/Users/Tung/Desktop/AXIS_Convolution_v1/ip_repo/axi_conv_fp_3x3_1.0/component.xml
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'c:/users/tung/desktop/axis_convolution_v1/axi_conv_fp_3x3/axi_conv_fp_3x3.tmp/axi_conv_fp_3x3_v1_0_v1_0_project'
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2015.2/data/ip'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Tung/Desktop/AXIS_Convolution_v1/ip_repo/axi_conv_fp_3x3_1.0'.
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+close_project -delete
+update_ip_catalog -rebuild -repo_path c:/Users/Tung/Desktop/AXIS_Convolution_v1/ip_repo/axi_conv_fp_3x3_1.0
+INFO: [IP_Flow 19-725] Reloaded user IP repository 'c:/Users/Tung/Desktop/AXIS_Convolution_v1/ip_repo/axi_conv_fp_3x3_1.0'
+report_ip_status -name ip_status 
+upgrade_ip -vlnv xilinx.com:user:axi_conv_fp_3x3:1.0 [get_ips  design_1_axi_conv_fp_3x3_0_0]
+Upgrading 'C:/Users/Tung/Desktop/AXIS_Convolution_v1/axi_conv_fp_3x3/axi_conv_fp_3x3.srcs/sources_1/bd/design_1/design_1.bd'
+INFO: [IP_Flow 19-1972] Upgraded design_1_axi_conv_fp_3x3_0_0 from axi_conv_fp_3x3_v1.0 1.0 to axi_conv_fp_3x3_v1.0 1.0
+INFO: [IP_Flow 19-3471] Wrote upgrade log to 'c:/Users/Tung/Desktop/AXIS_Convolution_v1/axi_conv_fp_3x3/axi_conv_fp_3x3.srcs/sources_1/bd/design_1/ip/design_1_axi_conv_fp_3x3_0_0_2/design_1_axi_conv_fp_3x3_0_0.upgrade_log'.
+Wrote  : <C:/Users/Tung/Desktop/AXIS_Convolution_v1/axi_conv_fp_3x3/axi_conv_fp_3x3.srcs/sources_1/bd/design_1/design_1.bd> 
+report_ip_status -name ip_status 
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+CRITICAL WARNING: [BD 41-759] The input pins (listed below) are either not connected or do not have a source port, and they don't have a tie-off specified. 
+Please check your design and connect them if needed: 
+/axi_conv_fp_3x3_0/s_axis_tstrb
+
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/axi_mem_intercon/M00_AXI_bid'(1) to net 'axi_mem_intercon_M00_AXI_BID'(6) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/axi_mem_intercon/M00_AXI_rid'(1) to net 'axi_mem_intercon_M00_AXI_RID'(6) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/processing_system7_0/S_AXI_HP0_WID'(6) to net 'axi_mem_intercon_M00_AXI_WID'(1) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/processing_system7_0/S_AXI_HP0_ARID'(6) to net 'axi_mem_intercon_M00_AXI_ARID'(1) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/processing_system7_0/S_AXI_HP0_AWID'(6) to net 'axi_mem_intercon_M00_AXI_AWID'(1) - Only lower order bits will be connected.
+Verilog Output written to : C:/Users/Tung/Desktop/AXIS_Convolution_v1/axi_conv_fp_3x3/axi_conv_fp_3x3.srcs/sources_1/bd/design_1/hdl/design_1.v
+Verilog Output written to : C:/Users/Tung/Desktop/AXIS_Convolution_v1/axi_conv_fp_3x3/axi_conv_fp_3x3.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.v
+Wrote  : <C:/Users/Tung/Desktop/AXIS_Convolution_v1/axi_conv_fp_3x3/axi_conv_fp_3x3.srcs/sources_1/bd/design_1/design_1.bd> 
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'design_1_axi_conv_fp_3x3_0_0'...
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_conv_fp_3x3_0 .
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'design_1_processing_system7_0_0'...
+INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0 .
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'design_1_rst_processing_system7_0_100M_0'...
+WARNING: [IP_Flow 19-1687] The current project language is set to Verilog. However IP 'design_1_rst_processing_system7_0_100M_0' does not support 'Verilog Synthesis' output products, delivering 'VHDL Synthesis' output products instead.
+INFO: [IP_Flow 19-1686] Generating 'Implementation' target for IP 'design_1_rst_processing_system7_0_100M_0'...
+INFO: [BD 41-1029] Generation completed for the IP Integrator block rst_processing_system7_0_100M .
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'design_1_xbar_0'...
+INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0_axi_periph/xbar .
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'design_1_xbar_1'...
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/xbar .
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'design_1_axi_gpio_0_0'...
+WARNING: [IP_Flow 19-1687] The current project language is set to Verilog. However IP 'design_1_axi_gpio_0_0' does not support 'Verilog Synthesis' output products, delivering 'VHDL Synthesis' output products instead.
+INFO: [IP_Flow 19-1686] Generating 'Implementation' target for IP 'design_1_axi_gpio_0_0'...
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_gpio_0 .
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'design_1_axi_dma_0_1'...
+WARNING: [IP_Flow 19-1687] The current project language is set to Verilog. However IP 'design_1_axi_dma_0_1' does not support 'Verilog Synthesis' output products, delivering 'VHDL Synthesis' output products instead.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_dma_0 .
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'design_1_xlconstant_0_1'...
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconstant_0 .
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'design_1_auto_pc_0'...
+INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0_axi_periph/s00_couplers/auto_pc .
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'design_1_auto_pc_1'...
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/m00_couplers/auto_pc .
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'design_1_auto_us_0'...
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/s01_couplers/auto_us .
+INFO: [BD 41-1379] This design does not contain any processor.
+Exporting to file C:/Users/Tung/Desktop/AXIS_Convolution_v1/axi_conv_fp_3x3/axi_conv_fp_3x3.srcs/sources_1/bd/design_1/hw_handoff/design_1.hwh
+Generated Block Design Tcl file C:/Users/Tung/Desktop/AXIS_Convolution_v1/axi_conv_fp_3x3/axi_conv_fp_3x3.srcs/sources_1/bd/design_1/hw_handoff/design_1_bd.tcl
+Generated Hardware Definition File C:/Users/Tung/Desktop/AXIS_Convolution_v1/axi_conv_fp_3x3/axi_conv_fp_3x3.srcs/sources_1/bd/design_1/hdl/design_1.hwdef
+INFO: [BD 41-1662] The design 'design_1.bd' is already validated. Therefore parameter propagation will not be re-run.
+CRITICAL WARNING: [BD 41-759] The input pins (listed below) are either not connected or do not have a source port, and they don't have a tie-off specified. 
+Please check your design and connect them if needed: 
+/axi_conv_fp_3x3_0/s_axis_tstrb
+
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/axi_mem_intercon/M00_AXI_bid'(1) to net 'axi_mem_intercon_M00_AXI_BID'(6) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/axi_mem_intercon/M00_AXI_rid'(1) to net 'axi_mem_intercon_M00_AXI_RID'(6) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/processing_system7_0/S_AXI_HP0_WID'(6) to net 'axi_mem_intercon_M00_AXI_WID'(1) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/processing_system7_0/S_AXI_HP0_ARID'(6) to net 'axi_mem_intercon_M00_AXI_ARID'(1) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/processing_system7_0/S_AXI_HP0_AWID'(6) to net 'axi_mem_intercon_M00_AXI_AWID'(1) - Only lower order bits will be connected.
+Verilog Output written to : C:/Users/Tung/Desktop/AXIS_Convolution_v1/axi_conv_fp_3x3/axi_conv_fp_3x3.srcs/sources_1/bd/design_1/hdl/design_1.v
+Verilog Output written to : C:/Users/Tung/Desktop/AXIS_Convolution_v1/axi_conv_fp_3x3/axi_conv_fp_3x3.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.v
+Wrote  : <C:/Users/Tung/Desktop/AXIS_Convolution_v1/axi_conv_fp_3x3/axi_conv_fp_3x3.srcs/sources_1/bd/design_1/design_1.bd> 
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'design_1_axi_conv_fp_3x3_0_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_conv_fp_3x3_0 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'design_1_processing_system7_0_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'design_1_rst_processing_system7_0_100M_0'. Target already exists and is up to date.
+INFO: [IP_Flow 19-1706] Not generating 'Implementation' target for IP 'design_1_rst_processing_system7_0_100M_0'. Target already exists and is up to date.
+INFO: [IP_Flow 19-1706] Not generating 'Implementation' target for IP 'design_1_rst_processing_system7_0_100M_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block rst_processing_system7_0_100M .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'design_1_xbar_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0_axi_periph/xbar .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'design_1_xbar_1'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/xbar .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'design_1_axi_gpio_0_0'. Target already exists and is up to date.
+INFO: [IP_Flow 19-1706] Not generating 'Implementation' target for IP 'design_1_axi_gpio_0_0'. Target already exists and is up to date.
+INFO: [IP_Flow 19-1706] Not generating 'Implementation' target for IP 'design_1_axi_gpio_0_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_gpio_0 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'design_1_axi_dma_0_1'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_dma_0 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'design_1_xlconstant_0_1'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconstant_0 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'design_1_auto_pc_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0_axi_periph/s00_couplers/auto_pc .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'design_1_auto_pc_1'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/m00_couplers/auto_pc .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'design_1_auto_us_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/s01_couplers/auto_us .
+INFO: [BD 41-1379] This design does not contain any processor.
+Exporting to file C:/Users/Tung/Desktop/AXIS_Convolution_v1/axi_conv_fp_3x3/axi_conv_fp_3x3.srcs/sources_1/bd/design_1/hw_handoff/design_1.hwh
+Generated Block Design Tcl file C:/Users/Tung/Desktop/AXIS_Convolution_v1/axi_conv_fp_3x3/axi_conv_fp_3x3.srcs/sources_1/bd/design_1/hw_handoff/design_1_bd.tcl
+Generated Hardware Definition File C:/Users/Tung/Desktop/AXIS_Convolution_v1/axi_conv_fp_3x3/axi_conv_fp_3x3.srcs/sources_1/bd/design_1/hdl/design_1.hwdef
+[Fri Jul 27 09:10:33 2018] Launched synth_1...
+Run output will be captured here: C:/Users/Tung/Desktop/AXIS_Convolution_v1/axi_conv_fp_3x3/axi_conv_fp_3x3.runs/synth_1/runme.log
+[Fri Jul 27 09:10:33 2018] Launched impl_1...
+Run output will be captured here: C:/Users/Tung/Desktop/AXIS_Convolution_v1/axi_conv_fp_3x3/axi_conv_fp_3x3.runs/impl_1/runme.log
+launch_runs: Time (s): cpu = 00:00:29 ; elapsed = 00:00:29 . Memory (MB): peak = 1223.199 ; gain = 22.023
+write_hwdef -force  -file C:/Users/Tung/Desktop/AXIS_Convolution_v1/axi_conv_fp_3x3/axi_conv_fp_3x3.sdk/design_1_wrapper.hdf
+launch_sdk -workspace C:/Users/Tung/Desktop/AXIS_Convolution_v1/axi_conv_fp_3x3/axi_conv_fp_3x3.sdk -hwspec C:/Users/Tung/Desktop/AXIS_Convolution_v1/axi_conv_fp_3x3/axi_conv_fp_3x3.sdk/design_1_wrapper.hdf
+INFO: [Vivado 12-393] Launching SDK...
+INFO: [Vivado 12-417] Running xsdk -workspace C:/Users/Tung/Desktop/AXIS_Convolution_v1/axi_conv_fp_3x3/axi_conv_fp_3x3.sdk -hwspec C:/Users/Tung/Desktop/AXIS_Convolution_v1/axi_conv_fp_3x3/axi_conv_fp_3x3.sdk/design_1_wrapper.hdf
+INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages.
+regenerate_bd_layout -routing
+regenerate_bd_layout
+save_bd_design
+Wrote  : <C:/Users/Tung/Desktop/AXIS_Convolution_v1/axi_conv_fp_3x3/axi_conv_fp_3x3.srcs/sources_1/bd/design_1/design_1.bd> 
+ipx::edit_ip_in_project -upgrade true -name axi_conv_fp_3x3_v1_0_v1_0_project -directory C:/Users/Tung/Desktop/AXIS_Convolution_v1/axi_conv_fp_3x3/axi_conv_fp_3x3.tmp/axi_conv_fp_3x3_v1_0_v1_0_project c:/Users/Tung/Desktop/AXIS_Convolution_v1/ip_repo/axi_conv_fp_3x3_1.0/component.xml
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'c:/users/tung/desktop/axis_convolution_v1/axi_conv_fp_3x3/axi_conv_fp_3x3.tmp/axi_conv_fp_3x3_v1_0_v1_0_project'
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2015.2/data/ip'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Tung/Desktop/AXIS_Convolution_v1/ip_repo/axi_conv_fp_3x3_1.0'.
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'axi_conv_fp_3x3_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'c:/users/tung/desktop/axis_convolution_v1/axi_conv_fp_3x3/axi_conv_fp_3x3.tmp/axi_conv_fp_3x3_v1_0_v1_0_project/axi_conv_fp_3x3_v1_0_v1_0_project.sim/sim_1/behav'
+"xvlog -m64 --relax -prj axi_conv_fp_3x3_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "c:/users/tung/desktop/axis_convolution_v1/ip_repo/axi_conv_fp_3x3_1.0/hdl/qmults.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module qmults
+INFO: [VRFC 10-2263] Analyzing Verilog file "c:/users/tung/desktop/axis_convolution_v1/ip_repo/axi_conv_fp_3x3_1.0/hdl/qadd.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module qadd
+INFO: [VRFC 10-2263] Analyzing Verilog file "c:/users/tung/desktop/axis_convolution_v1/ip_repo/axi_conv_fp_3x3_1.0/hdl/mac.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mac
+INFO: [VRFC 10-2263] Analyzing Verilog file "c:/users/tung/desktop/axis_convolution_v1/ip_repo/axi_conv_fp_3x3_1.0/hdl/shift.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module shift
+INFO: [VRFC 10-2263] Analyzing Verilog file "c:/users/tung/desktop/axis_convolution_v1/ip_repo/axi_conv_fp_3x3_1.0/hdl/register.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module register
+INFO: [VRFC 10-2263] Analyzing Verilog file "c:/users/tung/desktop/axis_convolution_v1/ip_repo/axi_conv_fp_3x3_1.0/hdl/conv.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module conv
+INFO: [VRFC 10-2263] Analyzing Verilog file "c:/users/tung/desktop/axis_convolution_v1/ip_repo/axi_conv_fp_3x3_1.0/hdl/axi_conv_fp_3x3_v1_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi_conv_fp_3x3_v1_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "c:/users/tung/desktop/axis_convolution_v1/ip_repo/axi_conv_fp_3x3_1.0/hdl/axi_conv_fp_3x3_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi_conv_fp_3x3_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "c:/users/tung/desktop/axis_convolution_v1/axi_conv_fp_3x3/axi_conv_fp_3x3.tmp/axi_conv_fp_3x3_v1_0_v1_0_project/axi_conv_fp_3x3_v1_0_v1_0_project.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'c:/users/tung/desktop/axis_convolution_v1/axi_conv_fp_3x3/axi_conv_fp_3x3.tmp/axi_conv_fp_3x3_v1_0_v1_0_project/axi_conv_fp_3x3_v1_0_v1_0_project.sim/sim_1/behav'
+Vivado Simulator 2015.2
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2015.2/bin/unwrapped/win64.o/xelab.exe -wto 6555254e9ca34d6681f8420d887e07a7 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot axi_conv_fp_3x3_tb_behav xil_defaultlib.axi_conv_fp_3x3_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 24 for port b [c:/users/tung/desktop/axis_convolution_v1/ip_repo/axi_conv_fp_3x3_1.0/hdl/conv.v:69]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 24 for port b [c:/users/tung/desktop/axis_convolution_v1/ip_repo/axi_conv_fp_3x3_1.0/hdl/conv.v:70]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 24 for port b [c:/users/tung/desktop/axis_convolution_v1/ip_repo/axi_conv_fp_3x3_1.0/hdl/conv.v:71]
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "c:/users/tung/desktop/axis_convolution_v1/ip_repo/axi_conv_fp_3x3_1.0/hdl/shift.v" Line 4. Module shift_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "c:/users/tung/desktop/axis_convolution_v1/ip_repo/axi_conv_fp_3x3_1.0/hdl/shift.v" Line 4. Module shift_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "c:/users/tung/desktop/axis_convolution_v1/ip_repo/axi_conv_fp_3x3_1.0/hdl/shift.v" Line 4. Module shift_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "c:/users/tung/desktop/axis_convolution_v1/ip_repo/axi_conv_fp_3x3_1.0/hdl/shift.v" Line 4. Module shift_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "c:/users/tung/desktop/axis_convolution_v1/ip_repo/axi_conv_fp_3x3_1.0/hdl/shift.v" Line 4. Module shift_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "c:/users/tung/desktop/axis_convolution_v1/ip_repo/axi_conv_fp_3x3_1.0/hdl/shift.v" Line 4. Module shift_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "c:/users/tung/desktop/axis_convolution_v1/ip_repo/axi_conv_fp_3x3_1.0/hdl/shift.v" Line 4. Module shift_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "c:/users/tung/desktop/axis_convolution_v1/ip_repo/axi_conv_fp_3x3_1.0/hdl/shift.v" Line 4. Module shift_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "c:/users/tung/desktop/axis_convolution_v1/ip_repo/axi_conv_fp_3x3_1.0/hdl/shift.v" Line 4. Module shift_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "c:/users/tung/desktop/axis_convolution_v1/ip_repo/axi_conv_fp_3x3_1.0/hdl/shift.v" Line 4. Module shift_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "c:/users/tung/desktop/axis_convolution_v1/ip_repo/axi_conv_fp_3x3_1.0/hdl/shift.v" Line 4. Module shift_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "c:/users/tung/desktop/axis_convolution_v1/ip_repo/axi_conv_fp_3x3_1.0/hdl/shift.v" Line 4. Module shift_default doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.qmults
+Compiling module xil_defaultlib.qadd
+Compiling module xil_defaultlib.mac
+Compiling module xil_defaultlib.register
+Compiling module xil_defaultlib.shift_default
+Compiling module xil_defaultlib.conv
+Compiling module xil_defaultlib.axi_conv_fp_3x3_v1_0
+Compiling module xil_defaultlib.axi_conv_fp_3x3_tb
+Compiling module xil_defaultlib.glbl
+Waiting for 2 sub-compilation(s) to finish...
+Built simulation snapshot axi_conv_fp_3x3_tb_behav
+
+****** Webtalk v2015.2 (64-bit)
+  **** SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+  **** IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source c:/users/tung/desktop/axis_convolution_v1/axi_conv_fp_3x3/axi_conv_fp_3x3.tmp/axi_conv_fp_3x3_v1_0_v1_0_project/axi_conv_fp_3x3_v1_0_v1_0_project.sim/sim_1/behav/xsim.dir/axi_conv_fp_3x3_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+webtalk_transmit: Time (s): cpu = 00:00:00 ; elapsed = 00:00:08 . Memory (MB): peak = 88.371 ; gain = 0.258
+
+    while executing
+"webtalk_transmit -clientid 2236133071 -regid "211455396_0_0_626" -xml c:/users/tung/desktop/axis_convolution_v1/axi_conv_fp_3x3/axi_conv_fp_3x3.tmp/ax..."
+    (file "c:/users/tung/desktop/axis_convolution_v1/axi_conv_fp_3x3/axi_conv_fp_3x3.tmp/axi_conv_fp_3x3_v1_0_v1_0_project/axi_conv_fp_3x3_v1_0_v1_0_project.sim/..." line 41)
+INFO: [Common 17-206] Exiting Webtalk at Fri Jul 27 11:39:41 2018...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:12 . Memory (MB): peak = 1242.461 ; gain = 0.000
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'c:/users/tung/desktop/axis_convolution_v1/axi_conv_fp_3x3/axi_conv_fp_3x3.tmp/axi_conv_fp_3x3_v1_0_v1_0_project/axi_conv_fp_3x3_v1_0_v1_0_project.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "axi_conv_fp_3x3_tb_behav -key {Behavioral:sim_1:Functional:axi_conv_fp_3x3_tb} -tclbatch {axi_conv_fp_3x3_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2015.2
+Time resolution is 1 ps
+source axi_conv_fp_3x3_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+WARNING: [Wavedata 42-489] Can't add object "/axi_conv_fp_3x3_tb/data_reg" to the wave window because it has 9830400 bits, which exceeds the display limit of 65536 bits.  To change the display limit, use the command "set_property display_limit <new limit> [current_wave_config]".
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'axi_conv_fp_3x3_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:16 . Memory (MB): peak = 1256.953 ; gain = 14.492
+run all
+run: Time (s): cpu = 00:00:13 ; elapsed = 00:06:10 . Memory (MB): peak = 1260.742 ; gain = 3.789
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:00 ; elapsed = 00:00:09 . Memory (MB): peak = 1266.008 ; gain = 0.000
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+close_project -delete
+update_ip_catalog -rebuild -repo_path c:/Users/Tung/Desktop/AXIS_Convolution_v1/ip_repo/axi_conv_fp_3x3_1.0
+INFO: [IP_Flow 19-725] Reloaded user IP repository 'c:/Users/Tung/Desktop/AXIS_Convolution_v1/ip_repo/axi_conv_fp_3x3_1.0'
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri Jul 27 12:21:10 2018...
