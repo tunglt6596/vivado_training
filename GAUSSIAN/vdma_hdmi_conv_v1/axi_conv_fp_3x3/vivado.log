@@ -1,0 +1,110 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Wed Aug 22 16:00:24 2018
+# Process ID: 2144
+# Log file: C:/Users/Tung/Desktop/Work21.08/GAUSSIAN/vdma_hdmi_conv_v1/axi_conv_fp_3x3/vivado.log
+# Journal file: C:/Users/Tung/Desktop/Work21.08/GAUSSIAN/vdma_hdmi_conv_v1/axi_conv_fp_3x3\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Tung/Desktop/Work21.08/GAUSSIAN/vdma_hdmi_conv_v1/axi_conv_fp_3x3/axi_conv_fp_3x3.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/Tung/Desktop/vdma_hdmi_conv_v1/axi_conv_fp_3x3' since last save.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/Tung/Desktop/Documents/sobel_x/vdma_hdmi_conv_v1/axi_conv_fp_3x3/axi_conv_fp_3x3.srcs/sources_1/bd/design_1/ip/design_1_axi_conv_fp_3x3_0_0/design_1_axi_conv_fp_3x3_0_0.upgrade_log', nor could it be found using path 'C:/Users/Documents/sobel_x/vdma_hdmi_conv_v1/axi_conv_fp_3x3/axi_conv_fp_3x3.srcs/sources_1/bd/design_1/ip/design_1_axi_conv_fp_3x3_0_0/design_1_axi_conv_fp_3x3_0_0.upgrade_log'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/Tung/Desktop/Work21.08/GAUSSIAN/vdma_hdmi_conv_v1/axi_conv_fp_3x3/axi_conv_fp_3x3.srcs/sources_1/bd/design_1/ip/design_1_swap_rgb_to_rbg_0_2/design_1_swap_rgb_to_rbg_0_2.upgrade_log', nor could it be found using path 'C:/Users/Tung/Desktop/vdma_hdmi_conv_v1/axi_conv_fp_3x3/axi_conv_fp_3x3.srcs/sources_1/bd/design_1/ip/design_1_swap_rgb_to_rbg_0_2/design_1_swap_rgb_to_rbg_0_2.upgrade_log'.
+Scanning sources...
+Finished scanning sources
+WARNING: [filemgmt 56-2] IP Repository Path: Could not find the directory 'C:/Users/Tung/users/tung/desktop/vdma_hdmi_conv_v1/ip_repo/axi_convolution_fixed_point_3x3_1.0', nor could it be found using path 'C:/users/tung/desktop/vdma_hdmi_conv_v1/ip_repo/axi_convolution_fixed_point_3x3_1.0'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'c:/Users/Tung/users/tung/desktop/vdma_hdmi_conv_v1/ip_repo/axi_convolution_fixed_point_3x3_1.0'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Tung/Desktop/Work21.08/GAUSSIAN/vdma_hdmi_conv_v1/ip_repo'.
+WARNING: [IP_Flow 19-395] Problem reading Component, Bad end of element xilinx:coreExtensions line 1: c:/Users/Tung/Desktop/Work21.08/GAUSSIAN/vdma_hdmi_conv_v1/useripp/viettelrd_hls_img_Mean_1_0/component.xml(1)
+CRITICAL WARNING: [IP_Flow 19-1977] Unable to read IP file c:/Users/Tung/Desktop/Work21.08/GAUSSIAN/vdma_hdmi_conv_v1/useripp/viettelrd_hls_img_Mean_1_0/component.xml. This IP will not be included in the IP Catalog.
+WARNING: [IP_Flow 19-395] Problem reading Component, Bad end of element xilinx:coreExtensions line 1: c:/Users/Tung/Desktop/Work21.08/GAUSSIAN/vdma_hdmi_conv_v1/useripp/viettelrd_hls_ip_AGC_ip_AGC_1_5/component.xml(1)
+CRITICAL WARNING: [IP_Flow 19-1977] Unable to read IP file c:/Users/Tung/Desktop/Work21.08/GAUSSIAN/vdma_hdmi_conv_v1/useripp/viettelrd_hls_ip_AGC_ip_AGC_1_5/component.xml. This IP will not be included in the IP Catalog.
+WARNING: [IP_Flow 19-395] Problem reading Component, Bad end of element xilinx:coreExtensions line 1: c:/Users/Tung/Desktop/Work21.08/GAUSSIAN/vdma_hdmi_conv_v1/useripp/viettelRD_hls_ip_delete_line_ip_delete_line_1_1/component.xml(1)
+CRITICAL WARNING: [IP_Flow 19-1977] Unable to read IP file c:/Users/Tung/Desktop/Work21.08/GAUSSIAN/vdma_hdmi_conv_v1/useripp/viettelRD_hls_ip_delete_line_ip_delete_line_1_1/component.xml. This IP will not be included in the IP Catalog.
+WARNING: [IP_Flow 19-395] Problem reading Component, Bad end of element xilinx:coreExtensions line 1: c:/Users/Tung/Desktop/Work21.08/GAUSSIAN/vdma_hdmi_conv_v1/useripp/viettelrd_hls_ip_draw_template_1_6/component.xml(1)
+CRITICAL WARNING: [IP_Flow 19-1977] Unable to read IP file c:/Users/Tung/Desktop/Work21.08/GAUSSIAN/vdma_hdmi_conv_v1/useripp/viettelrd_hls_ip_draw_template_1_6/component.xml. This IP will not be included in the IP Catalog.
+WARNING: [IP_Flow 19-395] Problem reading Component, Bad end of element xilinx:coreExtensions line 1: c:/Users/Tung/Desktop/Work21.08/GAUSSIAN/vdma_hdmi_conv_v1/useripp/viettelrd_hls_ip_zoom_zoom_1_8/component.xml(1)
+CRITICAL WARNING: [IP_Flow 19-1977] Unable to read IP file c:/Users/Tung/Desktop/Work21.08/GAUSSIAN/vdma_hdmi_conv_v1/useripp/viettelrd_hls_ip_zoom_zoom_1_8/component.xml. This IP will not be included in the IP Catalog.
+WARNING: [IP_Flow 19-395] Problem reading Component, Bad end of element xilinx:coreExtensions line 1: c:/Users/Tung/Desktop/Work21.08/GAUSSIAN/vdma_hdmi_conv_v1/useripp/viettelrd_hls_param_topbot_param_TopBot_1_5/component.xml(1)
+CRITICAL WARNING: [IP_Flow 19-1977] Unable to read IP file c:/Users/Tung/Desktop/Work21.08/GAUSSIAN/vdma_hdmi_conv_v1/useripp/viettelrd_hls_param_topbot_param_TopBot_1_5/component.xml. This IP will not be included in the IP Catalog.
+WARNING: [IP_Flow 19-395] Problem reading Component, Bad end of element xilinx:coreExtensions line 1: c:/Users/Tung/Desktop/Work21.08/GAUSSIAN/vdma_hdmi_conv_v1/useripp/viettelrd_zynq_2017_2_hls_ip_AGC_1_16/component.xml(1)
+CRITICAL WARNING: [IP_Flow 19-1977] Unable to read IP file c:/Users/Tung/Desktop/Work21.08/GAUSSIAN/vdma_hdmi_conv_v1/useripp/viettelrd_zynq_2017_2_hls_ip_AGC_1_16/component.xml. This IP will not be included in the IP Catalog.
+WARNING: [IP_Flow 19-395] Problem reading Component, Bad end of element xilinx:coreExtensions line 1: c:/Users/Tung/Desktop/Work21.08/GAUSSIAN/vdma_hdmi_conv_v1/useripp/viettelrd_zynq_2017_2_hls_ip_deadpixel_1_2/component.xml(1)
+CRITICAL WARNING: [IP_Flow 19-1977] Unable to read IP file c:/Users/Tung/Desktop/Work21.08/GAUSSIAN/vdma_hdmi_conv_v1/useripp/viettelrd_zynq_2017_2_hls_ip_deadpixel_1_2/component.xml. This IP will not be included in the IP Catalog.
+WARNING: [IP_Flow 19-395] Problem reading Component, Bad end of element xilinx:coreExtensions line 1: c:/Users/Tung/Desktop/Work21.08/GAUSSIAN/vdma_hdmi_conv_v1/useripp/viettelrd_zynq_2017_2_hls_ip_NUC2P_1_23/component.xml(1)
+CRITICAL WARNING: [IP_Flow 19-1977] Unable to read IP file c:/Users/Tung/Desktop/Work21.08/GAUSSIAN/vdma_hdmi_conv_v1/useripp/viettelrd_zynq_2017_2_hls_ip_NUC2P_1_23/component.xml. This IP will not be included in the IP Catalog.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Tung/Desktop/Work21.08/GAUSSIAN/vdma_hdmi_conv_v1/useripp'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2015.2/data/ip'.
+WARNING: [BD 41-1661] One or more IPs have been locked in the design 'design_1.bd'. Please run report_ip_status for more details and recommendations on how to fix this issue.
+List of locked IPs:
+design_1_AXI_Convolution_Fixed_Point_3x3_0_0
+
+open_project: Time (s): cpu = 00:00:14 ; elapsed = 00:00:13 . Memory (MB): peak = 745.887 ; gain = 160.531
+open_run impl_1
+INFO: [Netlist 29-17] Analyzing 1396 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2015.2
+INFO: [Device 21-403] Loading part xc7z020clg484-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [C:/Users/Tung/Desktop/Work21.08/GAUSSIAN/vdma_hdmi_conv_v1/axi_conv_fp_3x3/.Xil/Vivado-2144-Tung-PC/dcp/design_1_wrapper_early.xdc]
+Finished Parsing XDC File [C:/Users/Tung/Desktop/Work21.08/GAUSSIAN/vdma_hdmi_conv_v1/axi_conv_fp_3x3/.Xil/Vivado-2144-Tung-PC/dcp/design_1_wrapper_early.xdc]
+Parsing XDC File [C:/Users/Tung/Desktop/Work21.08/GAUSSIAN/vdma_hdmi_conv_v1/axi_conv_fp_3x3/.Xil/Vivado-2144-Tung-PC/dcp/design_1_wrapper.xdc]
+Finished Parsing XDC File [C:/Users/Tung/Desktop/Work21.08/GAUSSIAN/vdma_hdmi_conv_v1/axi_conv_fp_3x3/.Xil/Vivado-2144-Tung-PC/dcp/design_1_wrapper.xdc]
+Parsing XDC File [C:/Users/Tung/Desktop/Work21.08/GAUSSIAN/vdma_hdmi_conv_v1/axi_conv_fp_3x3/.Xil/Vivado-2144-Tung-PC/dcp/design_1_wrapper_late.xdc]
+INFO: [Timing 38-35] Done setting XDC timing constraints. [C:/Users/Tung/Desktop/Work21.08/GAUSSIAN/vdma_hdmi_conv_v1/axi_conv_fp_3x3/axi_conv_fp_3x3.srcs/sources_1/bd/design_1/ip/design_1_v_axi4s_vid_out_0_0/design_1_v_axi4s_vid_out_0_0_clocks.xdc:7]
+get_clocks: Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 1554.387 ; gain = 471.250
+Finished Parsing XDC File [C:/Users/Tung/Desktop/Work21.08/GAUSSIAN/vdma_hdmi_conv_v1/axi_conv_fp_3x3/.Xil/Vivado-2144-Tung-PC/dcp/design_1_wrapper_late.xdc]
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1554.387 ; gain = 0.000
+Restored from archive | CPU: 2.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1554.387 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 104 instances were transformed.
+  IOBUF => IOBUF (IBUF, OBUFT): 2 instances
+  RAM16X1D => RAM32X1D (RAMD32, RAMD32): 96 instances
+  RAM32M => RAM32M (RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMS32, RAMS32): 4 instances
+  RAM32X1D => RAM32X1D (RAMD32, RAMD32): 1 instances
+  RAM64X1S => RAM64X1S (RAMS64E): 1 instances
+
+open_run: Time (s): cpu = 00:00:34 ; elapsed = 00:00:30 . Memory (MB): peak = 1640.578 ; gain = 873.117
+report_utilization -name utilization_1
+report_utilization: Time (s): cpu = 00:00:06 ; elapsed = 00:00:03 . Memory (MB): peak = 1790.207 ; gain = 117.629
+open_bd_design {C:/Users/Tung/Desktop/Work21.08/GAUSSIAN/vdma_hdmi_conv_v1/axi_conv_fp_3x3/axi_conv_fp_3x3.srcs/sources_1/bd/design_1/design_1.bd}
+Adding component instance block -- xilinx.com:ip:axi_vdma:6.2 - axi_vdma_0
+Adding component instance block -- xilinx.com:ip:xlconstant:1.1 - xlconstant_0
+Adding component instance block -- xilinx.com:ip:axi_vdma:6.2 - axi_vdma_1
+Adding component instance block -- xilinx.com:ip:axi_gpio:2.0 - axi_gpio_0
+Adding component instance block -- xilinx.com:ip:proc_sys_reset:5.0 - rst_processing_system7_0_40M
+Adding component instance block -- xilinx.com:ip:processing_system7:5.5 - processing_system7_0
+Adding component instance block -- xilinx.com:ip:axi_crossbar:2.1 - xbar
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:axi_dwidth_converter:2.1 - auto_us
+Adding component instance block -- xilinx.com:ip:axi_crossbar:2.1 - xbar
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:axi_gpio:2.0 - axi_gpio_0
+Adding component instance block -- xilinx.com:ip:axis_data_fifo:1.1 - axis_data_fifo_0
+Adding component instance block -- xilinx.com:user:AXI_Convolution_Fixed_Point_3x3:1.0 - AXI_Convolution_Fixed_Point_3x3_0
+Adding component instance block -- avnet:zedboard:zed_hdmi_out:2.0 - zed_hdmi_out_0
+Adding component instance block -- xilinx.com:ip:xlconstant:1.1 - gnd
+Adding component instance block -- xilinx.com:ip:axi_iic:2.0 - axi_iic_0
+Adding component instance block -- xilinx.com:ip:v_cresample:4.0 - v_cresample_0
+Adding component instance block -- xilinx.com:ip:v_axi4s_vid_out:3.0 - v_axi4s_vid_out_0
+Adding component instance block -- xilinx.com:ip:v_tc:6.1 - v_tc_0
+Adding component instance block -- xilinx.com:ip:v_rgb2ycrcb:7.1 - v_rgb2ycrcb_0
+Adding component instance block -- xilinx.com:ip:xlconstant:1.1 - vcc
+Adding component instance block -- xilinx.com:user:AXIS_Swap_RGB_To_RBG:1.0 - AXIS_Swap_RGB_To_RBG_0
+Successfully read diagram <design_1> from BD file <C:/Users/Tung/Desktop/Work21.08/GAUSSIAN/vdma_hdmi_conv_v1/axi_conv_fp_3x3/axi_conv_fp_3x3.srcs/sources_1/bd/design_1/design_1.bd>
+report_ip_status -name ip_status 
+set_property  ip_repo_paths  {c:/Users/Tung/Desktop/Work21.08/GAUSSIAN/vdma_hdmi_conv_v1/ip_repo c:/Users/Tung/Desktop/Work21.08/GAUSSIAN/vdma_hdmi_conv_v1/useripp} [current_project]
+update_ip_catalog
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Tung/Desktop/Work21.08/GAUSSIAN/vdma_hdmi_conv_v1/ip_repo'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Tung/Desktop/Work21.08/GAUSSIAN/vdma_hdmi_conv_v1/useripp'.
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Aug 22 16:04:49 2018...

@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Wed Aug 22 16:04:54 2018
+# Process ID: 1964
+# Log file: C:/Users/Tung/Desktop/Work21.08/SOBEL_X/vdma_hdmi_conv_v1/axi_conv_fp_3x3/vivado.log
+# Journal file: C:/Users/Tung/Desktop/Work21.08/SOBEL_X/vdma_hdmi_conv_v1/axi_conv_fp_3x3\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Tung/Desktop/Work21.08/SOBEL_X/vdma_hdmi_conv_v1/axi_conv_fp_3x3/axi_conv_fp_3x3.xpr
+open_bd_design {C:/Users/Tung/Desktop/Work21.08/SOBEL_X/vdma_hdmi_conv_v1/axi_conv_fp_3x3/axi_conv_fp_3x3.srcs/sources_1/bd/design_1/design_1.bd}

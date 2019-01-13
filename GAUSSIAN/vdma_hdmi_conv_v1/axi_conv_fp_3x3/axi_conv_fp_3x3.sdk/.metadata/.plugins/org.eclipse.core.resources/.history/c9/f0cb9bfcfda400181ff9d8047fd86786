@@ -1,0 +1,85 @@
+#include "xil_io.h"
+#include "common.h"
+#include "xparameters.h"
+
+int SetInputGPIO( void ) {
+	//Set gpio as input
+	Xil_Out32( XPAR_AXI_GPIO_0_BASEADDR + 0x04, 1 );
+	return 0;
+}
+
+int ReadInputGPIO( void ) {
+	//Set gpio as input
+	Xil_In32( XPAR_AXI_GPIO_0_BASEADDR + 0x04, 1 );
+	return 0;
+}
+
+int InitializeAXIDma( void ) {
+
+	Xil_Out32( XPAR_AXI_VDMA_0_BASEADDR + 0x00, 0x00000089 );
+
+	Xil_Out32( XPAR_AXI_VDMA_1_BASEADDR + 0x00, 0x00000089 );
+	Xil_Out32( XPAR_AXI_VDMA_1_BASEADDR + 0x30, 0x00000089 );
+
+	return 0;
+}
+
+int EnableConvolutionUnit( void ) {
+	// set the gpios direction as output
+	// the gpios is by default output, so this is not needed.
+
+	// enable the Convolution Unit
+	Xil_Out32( XPAR_CONVOLUTION_UNIT_AXI_GPIO_0_BASEADDR, 1 );
+	return 0;
+}
+
+int DisableConvolutionUnit( void ) {
+	// set the gpios direction as output
+	// the gpios is by default output, so this is not needed.
+
+	// enable the Convolution Unit
+	Xil_Out32( XPAR_CONVOLUTION_UNIT_AXI_GPIO_0_BASEADDR, 0 );
+	return 0;
+}
+
+int StartVDMATransfer(u32 fr_addr, u32 bytes_per_pixel, u16 hsize, u16 vsize, u8 direction) {
+	switch(direction) {
+		case TRANSFER_TO_PROC_UUT:
+			// write frame buffer start address to START_ADDRESS register.
+			xil_printf("start transfer to convolution unit...\n\r");
+			Xil_Out32(XPAR_AXI_VDMA_0_BASEADDR + 0x5C, fr_addr);
+			Xil_Out32(XPAR_AXI_VDMA_0_BASEADDR + 0x60, fr_addr);
+			Xil_Out32(XPAR_AXI_VDMA_0_BASEADDR + 0x64, fr_addr);
+			//write stride
+			Xil_Out32( XPAR_AXI_VDMA_0_BASEADDR + 0x58, hsize*bytes_per_pixel );
+			// write hsize and vsize
+			Xil_Out32( XPAR_AXI_VDMA_0_BASEADDR + 0x54, hsize*bytes_per_pixel );
+			Xil_Out32( XPAR_AXI_VDMA_0_BASEADDR + 0x50, vsize );
+			return 0;
+		case TRANSFER_TO_DRAM_MEM:
+			// write frame buffer start address to START_ADDRESS register.
+			xil_printf("start transfer to dram memory...\n\r");
+			Xil_Out32(XPAR_AXI_VDMA_1_BASEADDR + 0xAC, fr_addr);
+			Xil_Out32(XPAR_AXI_VDMA_1_BASEADDR + 0xB0, fr_addr);
+			Xil_Out32(XPAR_AXI_VDMA_1_BASEADDR + 0xB4, fr_addr);
+			//write stride
+			Xil_Out32( XPAR_AXI_VDMA_1_BASEADDR + 0xA8, hsize*bytes_per_pixel );
+			// write hsize and vsize
+			Xil_Out32( XPAR_AXI_VDMA_1_BASEADDR + 0xA4, hsize*bytes_per_pixel );
+			Xil_Out32( XPAR_AXI_VDMA_1_BASEADDR + 0xA0, vsize );
+			return 0;
+		case TRANSFER_TO_HDMI_OUT:
+			xil_printf("start transfer device to hdmi output...\n\r");
+			Xil_Out32(XPAR_AXI_VDMA_1_BASEADDR + 0x5C, fr_addr);
+			Xil_Out32(XPAR_AXI_VDMA_1_BASEADDR + 0x60, fr_addr);
+			Xil_Out32(XPAR_AXI_VDMA_1_BASEADDR + 0x64, fr_addr);
+			//write stride
+			Xil_Out32( XPAR_AXI_VDMA_1_BASEADDR + 0x58, hsize*bytes_per_pixel );
+			// write hsize and vsize
+			Xil_Out32( XPAR_AXI_VDMA_1_BASEADDR + 0x54, hsize*bytes_per_pixel );
+			Xil_Out32( XPAR_AXI_VDMA_1_BASEADDR + 0x50, vsize );
+			return 0;
+		default:
+			return -1;
+	}
+}

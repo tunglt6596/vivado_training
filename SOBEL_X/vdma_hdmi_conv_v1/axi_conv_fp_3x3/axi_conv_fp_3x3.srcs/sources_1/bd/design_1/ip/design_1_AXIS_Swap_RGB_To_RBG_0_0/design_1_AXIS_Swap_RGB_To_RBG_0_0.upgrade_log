@@ -1,0 +1,63 @@
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.2 (win64) Build 1266856 Fri Jun 26 16:35:25 MDT 2015
+| Date         : Mon Aug 20 09:01:07 2018
+| Host         : Tung-PC running 64-bit Service Pack 1  (build 7601)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_AXIS_Swap_RGB_To_RBG_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the update of design_1_AXIS_Swap_RGB_To_RBG_0_0 (xilinx.com:user:AXIS_Swap_RGB_To_RBG:1.0 (Rev. 1)) to current project options.
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading IP 'design_1_AXIS_Swap_RGB_To_RBG_0_0'. These changes may impact your design.
+
+
+-upgraded port 'm_axis_tdata' width 24 differs from original width 32
+-upgrade has removed port 'm_axis_tstrb'
+-upgraded port 's_axis_tdata' width 24 differs from original width 32
+-upgrade has removed port 's_axis_tstrb'
+-upgrade has added port 'm_axis_tuser'
+-upgrade has added port 's_axis_tuser'
+
+3. Customization warnings
+-------------------------
+
+WARNING: The normal upgrade process failed due to validation failures in the given configuration . Attempting partial upgrade.
+This process will attempt to set as many user parameters as possible.Please check the parameters whose values were not applied
+
+WARNING: An attempt to modify the value of disabled parameter 'C_S_AXIS_TDATA_WIDTH' from '24' to '32' has been ignored for IP '/hdmi_display/AXIS_Swap_RGB_To_RBG_0'
+
+WARNING: Unable to set the value '32' on parameter 'C M AXIS START COUNT' due to the following failure - 
+Validation failed for parameter 'C M AXIS START COUNT(C_M_AXIS_START_COUNT)' for BD Cell '/hdmi_display/AXIS_Swap_RGB_To_RBG_0'. Value '32' is out of the range (1,24)
+.Restoring to an old valid value of '24'
+
+WARNING: An attempt to modify the value of disabled parameter 'C_M_AXIS_TDATA_WIDTH' from '24' to '32' has been ignored for IP '/hdmi_display/AXIS_Swap_RGB_To_RBG_0'
+
+
+4. Debug Commands
+-----------------
+
+  The following debug information can be passed to Vivado as Tcl commands,
+in order to validate or debug the output of the upgrade flow.
+  Please consult the warnings from the previous sections, and alter or remove
+the configuration parameter(s) which caused the warning; then execute the Tcl
+commands, and use the IP Customization GUI to verify the IP configuration.
+
+create_ip -vlnv xilinx.com:user:AXIS_Swap_RGB_To_RBG:1.0 -user_name design_1_AXIS_Swap_RGB_To_RBG_0_0
+set_property -dict "\
+  CONFIG.C_M_AXIS_TDATA_WIDTH 32 \
+  CONFIG.C_M_AXIS_START_COUNT 32 \
+  CONFIG.C_S_AXIS_TDATA_WIDTH 32 \
+  CONFIG.Component_Name design_1_AXIS_Swap_RGB_To_RBG_0_0 " [get_ips design_1_AXIS_Swap_RGB_To_RBG_0_0]
+
+

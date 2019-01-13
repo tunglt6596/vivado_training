@@ -1,0 +1,25 @@
+/*
+ * common.h
+ *
+ *  Created on: Aug 14, 2018
+ *      Author: TungLT
+ */
+
+#ifndef COMMON_H_
+#define COMMON_H_
+
+#define TRANSFER_TO_PROC_UUT	0
+#define TRANSFER_TO_DRAM_MEM	1
+#define TRANSFER_TO_HDMI_OUT	2
+
+#define FRAME_WIDTH		640
+#define FRAME_HEIGHT	480
+#define BYTES_PER_PXL	3
+#define FRAME_SPACE 	FRAME_WIDTH*FRAME_HEIGHT*BYTES_PER_PXL
+
+int InitializeAXIDma( void );
+int EnableConvolutionUnit( void );
+int DisableConvolutionUnit( void );
+int StartVDMATransfer(u32 fr_addr, u32 bytes_per_pixel, u16 hsize, u16 vsize, u8 direction);
+
+#endif /* COMMON_H_ */

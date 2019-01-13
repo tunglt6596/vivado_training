@@ -1,0 +1,37 @@
+{
+   guistr: "# # String gsaved with Nlview 6.4.12  2014-12-16 bk=1.3272 VDI=35 GEI=35 GUI=JA:1.6
+#  -string -flagsOSRD
+preplace port DDR -pg 1 -y 360 -defaultsOSRD
+preplace port S02_AXI -pg 1 -y 330 -defaultsOSRD
+preplace port S00_AXI -pg 1 -y 290 -defaultsOSRD
+preplace port S01_AXI -pg 1 -y 310 -defaultsOSRD
+preplace port M01_AXI -pg 1 -y 160 -defaultsOSRD
+preplace port M03_AXI -pg 1 -y 200 -defaultsOSRD
+preplace port FIXED_IO -pg 1 -y 380 -defaultsOSRD
+preplace port M02_AXI -pg 1 -y 180 -defaultsOSRD
+preplace port FCLK_CLK0 -pg 1 -y 400 -defaultsOSRD
+preplace port M00_AXI -pg 1 -y 140 -defaultsOSRD
+preplace portBus S00_ARESETN -pg 1 -y 340 -defaultsOSRD
+preplace inst axi_mem_intercon -pg 1 -lvl 1 -y 410 -defaultsOSRD
+preplace inst rst_processing_system7_0_40M -pg 1 -lvl 2 -y 190 -defaultsOSRD
+preplace inst processing_system7_0_axi_periph -pg 1 -lvl 3 -y 170 -defaultsOSRD
+preplace inst processing_system7_0 -pg 1 -lvl 2 -y 430 -defaultsOSRD
+preplace netloc Conn1 1 3 1 NJ
+preplace netloc processing_system7_0_DDR 1 2 2 NJ 360 NJ
+preplace netloc axi_vdma_1_M_AXI_S2MM 1 0 1 NJ
+preplace netloc processing_system7_0_axi_periph_M00_AXI 1 3 1 NJ
+preplace netloc axi_vdma_1_M_AXI_MM2S 1 0 1 NJ
+preplace netloc axi_vdma_0_M_AXI_MM2S 1 0 1 NJ
+preplace netloc processing_system7_0_M_AXI_GP0 1 2 1 890
+preplace netloc rst_processing_system7_0_40M_interconnect_aresetn 1 0 3 120 90 NJ 90 880
+preplace netloc processing_system7_0_FCLK_RESET0_N 1 1 2 430 100 870
+preplace netloc axi_mem_intercon_M00_AXI 1 1 1 N
+preplace netloc processing_system7_0_axi_periph_M02_AXI 1 3 1 NJ
+preplace netloc processing_system7_0_FIXED_IO 1 2 2 NJ 380 NJ
+preplace netloc processing_system7_0_FCLK_CLK0 1 0 4 110 600 420 280 910 400 NJ
+preplace netloc processing_system7_0_axi_periph_M01_AXI 1 3 1 NJ
+preplace netloc rst_processing_system7_0_40M_peripheral_aresetn 1 0 4 120 590 NJ 290 900 350 NJ
+levelinfo -pg 1 90 270 650 1060 1230
+",
+}
+0

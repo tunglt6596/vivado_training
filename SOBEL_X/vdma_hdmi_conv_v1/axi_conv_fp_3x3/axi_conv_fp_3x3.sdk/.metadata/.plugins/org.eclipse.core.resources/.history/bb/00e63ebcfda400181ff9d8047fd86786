@@ -1,0 +1,19 @@
+/*
+ * hdmi_display.h
+ *
+ *  Created on: Aug 14, 2018
+ *      Author: TungLT
+ */
+
+#ifndef HDMI_DISPLAY_H_
+#define HDMI_DISPLAY_H_
+
+#include "xbasic_types.h"
+
+#define ADV7511_ADDR   0x72
+#define CARRIER_HDMI_OUT_CONFIG_LEN  (40)
+
+int hdmi_WriteReg(u8 SlaveAddr, u8 u8RegAddr, u8 u8RegVal);
+void InitDisplayHDMI();
+
+#endif /* HDMI_DISPLAY_H_ */

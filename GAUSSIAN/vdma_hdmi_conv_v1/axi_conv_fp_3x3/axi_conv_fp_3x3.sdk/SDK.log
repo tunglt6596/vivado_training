@@ -1,0 +1,179 @@
+11:23:25 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2015.2/scripts/xsdb/xsdb/xsdb-server.tcl
+11:23:28 INFO  : Processing command line option -hwspec C:/Users/Tung/Desktop/vdma_hdmi_conv_v1/axi_conv_fp_3x3/axi_conv_fp_3x3.sdk/design_1_wrapper.hdf.
+11:23:29 INFO  : XSDB server has started successfully.
+11:34:01 INFO  : Restoring File Contents to Memory...
+11:36:01 INFO  : FPGA Cable Disconnected. All active launches will be terminated.
+11:36:41 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+11:36:47 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2015.2/scripts/xsdb/xsdb/xsdb-server.tcl
+11:36:48 INFO  : XSDB server has started successfully.
+11:36:49 INFO  : Processing command line option -hwspec C:/Users/Tung/Desktop/vdma_hdmi_conv_v1/axi_conv_fp_3x3/axi_conv_fp_3x3.sdk/design_1_wrapper.hdf.
+11:36:50 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+11:37:34 INFO  : FPGA Cable Disconnected. All active launches will be terminated.
+11:38:18 INFO  : Restoring File Contents to Memory...
+11:40:31 INFO  : Restored Contents to Memory Successfully from File D:\test2\video_in.bin
+11:43:40 INFO  : FPGA Cable Disconnected. All active launches will be terminated.
+11:44:26 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+11:44:33 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2015.2/scripts/xsdb/xsdb/xsdb-server.tcl
+11:44:34 INFO  : XSDB server has started successfully.
+11:44:35 INFO  : Processing command line option -hwspec C:/Users/Tung/Desktop/vdma_hdmi_conv_v1/axi_conv_fp_3x3/axi_conv_fp_3x3.sdk/design_1_wrapper.hdf.
+11:44:35 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+11:45:20 INFO  : FPGA Cable Disconnected. All active launches will be terminated.
+11:46:18 INFO  : Restoring File Contents to Memory...
+11:48:30 INFO  : Restored Contents to Memory Successfully from File D:\test2\video_in.bin
+11:49:40 INFO  : FPGA Cable Disconnected. All active launches will be terminated.
+11:54:03 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+11:54:11 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2015.2/scripts/xsdb/xsdb/xsdb-server.tcl
+11:54:12 INFO  : XSDB server has started successfully.
+11:54:13 INFO  : Processing command line option -hwspec C:/Users/Tung/Desktop/vdma_hdmi_conv_v1/axi_conv_fp_3x3/axi_conv_fp_3x3.sdk/design_1_wrapper.hdf.
+11:54:14 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+11:55:08 INFO  : Restoring File Contents to Memory...
+11:57:22 INFO  : Restored Contents to Memory Successfully from File D:\test2\video_in.bin
+11:58:30 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+12:18:38 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2015.2/scripts/xsdb/xsdb/xsdb-server.tcl
+12:18:39 INFO  : XSDB server has started successfully.
+12:18:40 INFO  : Processing command line option -hwspec C:/Users/Tung/Desktop/vdma_hdmi_conv_v1/axi_conv_fp_3x3/axi_conv_fp_3x3.sdk/design_1_wrapper.hdf.
+12:18:40 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+12:19:51 INFO  : Restoring File Contents to Memory...
+12:21:59 INFO  : Restored Contents to Memory Successfully from File D:\test2\video_in.bin
+12:22:59 INFO  : FPGA Cable Disconnected. All active launches will be terminated.
+12:23:46 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+12:23:53 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2015.2/scripts/xsdb/xsdb/xsdb-server.tcl
+12:23:54 INFO  : XSDB server has started successfully.
+12:23:54 INFO  : Processing command line option -hwspec C:/Users/Tung/Desktop/vdma_hdmi_conv_v1/axi_conv_fp_3x3/axi_conv_fp_3x3.sdk/design_1_wrapper.hdf.
+12:23:55 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+12:24:46 INFO  : Restoring File Contents to Memory...
+12:26:52 INFO  : Restored Contents to Memory Successfully from File D:\test2\video_in.bin
+12:27:40 INFO  : FPGA Cable Disconnected. All active launches will be terminated.
+12:34:59 INFO  : Restoring File Contents to Memory...
+12:37:14 INFO  : Restored Contents to Memory Successfully from File D:\test2\video_in.bin
+12:38:20 INFO  : FPGA Cable Disconnected. All active launches will be terminated.
+12:38:59 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+12:40:20 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2015.2/scripts/xsdb/xsdb/xsdb-server.tcl
+12:40:21 INFO  : XSDB server has started successfully.
+12:40:21 INFO  : Processing command line option -hwspec C:/Users/Tung/Desktop/vdma_hdmi_conv_v1/axi_conv_fp_3x3/axi_conv_fp_3x3.sdk/design_1_wrapper.hdf.
+12:40:22 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+12:42:28 INFO  : Restoring File Contents to Memory...
+12:44:34 INFO  : Restored Contents to Memory Successfully from File D:\test2\video_in.bin
+12:45:12 INFO  : FPGA Cable Disconnected. All active launches will be terminated.
+12:46:27 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+12:46:36 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2015.2/scripts/xsdb/xsdb/xsdb-server.tcl
+12:46:37 INFO  : XSDB server has started successfully.
+12:46:38 INFO  : Processing command line option -hwspec C:/Users/Tung/Desktop/vdma_hdmi_conv_v1/axi_conv_fp_3x3/axi_conv_fp_3x3.sdk/design_1_wrapper.hdf.
+12:46:39 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+12:47:15 INFO  : FPGA Cable Disconnected. All active launches will be terminated.
+12:47:58 INFO  : Restoring File Contents to Memory...
+12:50:13 INFO  : Restored Contents to Memory Successfully from File D:\test2\video_in.bin
+12:51:03 INFO  : FPGA Cable Disconnected. All active launches will be terminated.
+13:02:14 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+13:02:21 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2015.2/scripts/xsdb/xsdb/xsdb-server.tcl
+13:02:22 INFO  : XSDB server has started successfully.
+13:02:23 INFO  : Processing command line option -hwspec C:/Users/Tung/Desktop/vdma_hdmi_conv_v1/axi_conv_fp_3x3/axi_conv_fp_3x3.sdk/design_1_wrapper.hdf.
+13:02:24 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+13:03:30 INFO  : Restoring File Contents to Memory...
+13:05:44 INFO  : Restored Contents to Memory Successfully from File D:\test2\video_in.bin
+13:07:22 INFO  : FPGA Cable Disconnected. All active launches will be terminated.
+13:08:45 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+13:16:52 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2015.2/scripts/xsdb/xsdb/xsdb-server.tcl
+13:16:53 INFO  : XSDB server has started successfully.
+13:16:54 INFO  : Processing command line option -hwspec C:/Users/Tung/Desktop/vdma_hdmi_conv_v1/axi_conv_fp_3x3/axi_conv_fp_3x3.sdk/design_1_wrapper.hdf.
+13:16:55 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+13:18:26 INFO  : Restoring File Contents to Memory...
+13:20:41 INFO  : Restored Contents to Memory Successfully from File D:\test2\video_in.bin
+13:22:29 INFO  : FPGA Cable Disconnected. All active launches will be terminated.
+13:25:49 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+13:25:55 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2015.2/scripts/xsdb/xsdb/xsdb-server.tcl
+13:25:56 INFO  : XSDB server has started successfully.
+13:25:57 INFO  : Processing command line option -hwspec C:/Users/Tung/Desktop/vdma_hdmi_conv_v1/axi_conv_fp_3x3/axi_conv_fp_3x3.sdk/design_1_wrapper.hdf.
+13:25:58 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+13:26:31 INFO  : FPGA Cable Disconnected. All active launches will be terminated.
+13:27:07 INFO  : Restoring File Contents to Memory...
+13:29:19 INFO  : Restored Contents to Memory Successfully from File D:\test2\video_in.bin
+13:32:14 INFO  : FPGA Cable Disconnected. All active launches will be terminated.
+13:33:41 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+13:52:46 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2015.2/scripts/xsdb/xsdb/xsdb-server.tcl
+13:52:47 INFO  : XSDB server has started successfully.
+13:52:48 INFO  : Processing command line option -hwspec C:/Users/Tung/Desktop/vdma_hdmi_conv_v1/axi_conv_fp_3x3/axi_conv_fp_3x3.sdk/design_1_wrapper.hdf.
+13:52:49 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+13:52:50 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1534834360052,  Project:1534825399116
+13:52:50 INFO  : The hardware specification for project 'design_1_wrapper_hw_platform_0' is different from C:/Users/Tung/Desktop/vdma_hdmi_conv_v1/axi_conv_fp_3x3/axi_conv_fp_3x3.sdk/design_1_wrapper.hdf.
+13:52:50 INFO  : Copied contents of C:/Users/Tung/Desktop/vdma_hdmi_conv_v1/axi_conv_fp_3x3/axi_conv_fp_3x3.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_0\system.hdf.
+13:52:53 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+13:52:58 INFO  : 
+13:53:01 INFO  : 
+13:53:02 INFO  : Updating hardware inferred compiler options for fsbl.
+13:53:03 INFO  : Updating hardware inferred compiler options for hello_world.
+13:53:03 INFO  : Clearing existing target manager status.
+13:59:00 INFO  : Restoring File Contents to Memory...
+14:01:04 INFO  : Restored Contents to Memory Successfully from File D:\test2\video_in.bin
+14:02:14 INFO  : FPGA Cable Disconnected. All active launches will be terminated.
+14:02:20 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+16:09:24 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2015.2/scripts/xsdb/xsdb/xsdb-server.tcl
+16:09:25 INFO  : XSDB server has started successfully.
+16:09:26 INFO  : Processing command line option -hwspec C:/Users/Tung/Desktop/vdma_hdmi_conv_v1/axi_conv_fp_3x3/axi_conv_fp_3x3.sdk/design_1_wrapper.hdf.
+16:09:27 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+16:09:29 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1534842552192,  Project:1534834360052
+16:09:29 INFO  : The hardware specification for project 'design_1_wrapper_hw_platform_0' is different from C:/Users/Tung/Desktop/vdma_hdmi_conv_v1/axi_conv_fp_3x3/axi_conv_fp_3x3.sdk/design_1_wrapper.hdf.
+16:09:29 INFO  : Copied contents of C:/Users/Tung/Desktop/vdma_hdmi_conv_v1/axi_conv_fp_3x3/axi_conv_fp_3x3.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_0\system.hdf.
+16:09:46 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+16:10:02 INFO  : 
+16:10:04 INFO  : 
+16:10:06 INFO  : Updating hardware inferred compiler options for fsbl.
+16:10:07 INFO  : Updating hardware inferred compiler options for hello_world.
+16:10:07 INFO  : Clearing existing target manager status.
+16:11:15 INFO  : Restoring File Contents to Memory...
+16:13:23 INFO  : Restored Contents to Memory Successfully from File D:\test2\video_in.bin
+16:14:25 INFO  : FPGA Cable Disconnected. All active launches will be terminated.
+16:14:35 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+16:39:46 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2015.2/scripts/xsdb/xsdb/xsdb-server.tcl
+16:39:48 INFO  : XSDB server has started successfully.
+16:39:49 INFO  : Processing command line option -hwspec C:/Users/Tung/Desktop/vdma_hdmi_conv_v1/axi_conv_fp_3x3/axi_conv_fp_3x3.sdk/design_1_wrapper.hdf.
+16:39:49 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+16:39:51 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1534844377637,  Project:1534842552192
+16:39:51 INFO  : The hardware specification for project 'design_1_wrapper_hw_platform_0' is different from C:/Users/Tung/Desktop/vdma_hdmi_conv_v1/axi_conv_fp_3x3/axi_conv_fp_3x3.sdk/design_1_wrapper.hdf.
+16:39:51 INFO  : Copied contents of C:/Users/Tung/Desktop/vdma_hdmi_conv_v1/axi_conv_fp_3x3/axi_conv_fp_3x3.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_0\system.hdf.
+16:40:12 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+16:40:16 INFO  : 
+16:40:18 INFO  : 
+16:40:33 INFO  : Updating hardware inferred compiler options for fsbl.
+16:40:34 INFO  : Updating hardware inferred compiler options for hello_world.
+16:40:34 INFO  : Clearing existing target manager status.
+16:41:34 INFO  : Restoring File Contents to Memory...
+16:43:48 INFO  : Restored Contents to Memory Successfully from File D:\test2\video_in.bin
+16:47:34 INFO  : FPGA Cable Disconnected. All active launches will be terminated.
+16:47:50 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+17:19:24 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2015.2/scripts/xsdb/xsdb/xsdb-server.tcl
+17:19:26 INFO  : XSDB server has started successfully.
+17:19:27 INFO  : Processing command line option -hwspec C:/Users/Tung/Desktop/vdma_hdmi_conv_v1/axi_conv_fp_3x3/axi_conv_fp_3x3.sdk/design_1_wrapper.hdf.
+17:19:27 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+17:19:29 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1534846751732,  Project:1534844377637
+17:19:29 INFO  : The hardware specification for project 'design_1_wrapper_hw_platform_0' is different from C:/Users/Tung/Desktop/vdma_hdmi_conv_v1/axi_conv_fp_3x3/axi_conv_fp_3x3.sdk/design_1_wrapper.hdf.
+17:19:29 INFO  : Copied contents of C:/Users/Tung/Desktop/vdma_hdmi_conv_v1/axi_conv_fp_3x3/axi_conv_fp_3x3.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_0\system.hdf.
+17:19:49 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+17:19:52 INFO  : 
+17:19:55 INFO  : 
+17:19:56 INFO  : Updating hardware inferred compiler options for fsbl.
+17:19:57 INFO  : Updating hardware inferred compiler options for hello_world.
+17:19:57 INFO  : Clearing existing target manager status.
+17:20:49 INFO  : Restoring File Contents to Memory...
+17:22:54 INFO  : Restored Contents to Memory Successfully from File D:\test2\video_in.bin
+08:12:31 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2015.2/scripts/xsdb/xsdb/xsdb-server.tcl
+08:12:42 INFO  : XSDB server has started successfully.
+08:12:45 INFO  : Processing command line option -hwspec C:/Users/Tung/Desktop/vdma_hdmi_conv_v1/axi_conv_fp_3x3/axi_conv_fp_3x3.sdk/design_1_wrapper.hdf.
+08:12:47 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+08:13:31 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+08:55:54 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2015.2/scripts/xsdb/xsdb/xsdb-server.tcl
+08:55:55 INFO  : XSDB server has started successfully.
+08:55:56 INFO  : Processing command line option -hwspec C:/Users/Tung/Desktop/vdma_hdmi_conv_v1/axi_conv_fp_3x3/axi_conv_fp_3x3.sdk/design_1_wrapper.hdf.
+08:55:57 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+08:59:30 INFO  : Restoring File Contents to Memory...
+09:01:38 INFO  : Restored Contents to Memory Successfully from File D:\test2\video_noise_in.bin
+09:05:30 INFO  : FPGA Cable Disconnected. All active launches will be terminated.
+09:17:05 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+09:29:20 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2015.2/scripts/xsdb/xsdb/xsdb-server.tcl
+09:29:25 INFO  : XSDB server has started successfully.
+09:29:27 INFO  : Processing command line option -hwspec C:/Users/Tung/Desktop/vdma_hdmi_conv_v1/axi_conv_fp_3x3/axi_conv_fp_3x3.sdk/design_1_wrapper.hdf.
+09:29:29 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+09:30:25 INFO  : Restoring File Contents to Memory...
+09:32:39 INFO  : Restored Contents to Memory Successfully from File D:\test2\video_in.bin
+09:34:13 INFO  : FPGA Cable Disconnected. All active launches will be terminated.
+09:37:06 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
